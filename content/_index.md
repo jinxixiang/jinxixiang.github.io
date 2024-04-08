@@ -86,6 +86,31 @@ sections:
           date_start: '2020-12-01'
           date_end: '2021-05-25'
           description: Medical Image Analysis.
+        - title: Ph.D. Degree in Engineering
+          company: Tsinghua University
+          company_url: ''
+          company_logo: Tsinghua_University_Logo
+          location: Beijing, China
+          date_start: '2016-09-01'
+          date_end: '2021-07-01'
+          description: Electromagnetic Tomography; Medical Imaging.
+        - title: Visiting Ph.D. Student
+          company: University of Edinburgh
+          company_url: ''
+          company_logo: University_of_Edinburgh-Logo.wine
+          location: Edinburgh, UK
+          date_start: '2019-10-01'
+          date_end: '2020-10-01'
+          # description: Electromagnetic Tomography; Medical Imaging.
+        - title: Bachelor's Degree in Engineering
+          company: Wuhan University
+          company_url: ''
+          company_logo: Wuhan_University_Logo
+          location: Wuhan, China
+          date_start: '2012-09-01'
+          date_end: '2016-07-01'
+          # description: 
+
     design:
       columns: '2'
   # - block: accomplishments
@@ -204,7 +229,7 @@ sections:
         featured_only: true
     design:
       columns: '2'
-      view: card
+      view: compact
   # - block: collection
   #   content:
   #     title: Recent Publications

@@ -27,24 +27,24 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include computer vision and medical image analysis.
 
-# Interests to show in About widget
-interests:
-  - Computer Vision
-  - Medical Image Analysis
-  - AI for Precision Oncology
+# # Interests to show in About widget
+# interests:
+#   - Computer Vision
+#   - Medical Image Analysis
+#   - AI for Precision Oncology
 
-# Education to show in About widget
-education:
-  courses:
-    - course: Ph.D. in Engineering
-      institution: Tsinghua University
-      year: 2016 - 2021
-    - course: Visiting Ph.D.
-      institution: University of Edinburgh
-      year: 2019 - 2020
-    - course: BE in Engineering
-      institution: Wuhan University
-      year: 2012 - 2016
+# # Education to show in About widget
+# education:
+#   courses:
+#     - course: Ph.D. in Engineering
+#       institution: Tsinghua University
+#       year: 2016 - 2021
+#     - course: Visiting Ph.D.
+#       institution: University of Edinburgh
+#       year: 2019 - 2020
+#     - course: BE in Engineering
+#       institution: Wuhan University
+#       year: 2012 - 2016
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -120,7 +120,16 @@ social:
 highlight_name: true
 ---
 
-Jinxi Xiang is a postdoctoral fellow at Stanford University. He received his Ph.D. in Engineering from Tsinghua University. After that, he joined Tencent AI Lab as a senior researcher for two years, specializing in computational pathology, image and video coding, and video generation for game design. His expertise spans multiple disciplines in computer vision and medical image analysis. Currently, his primary focus is leveraging computational pathology and artificial intelligence to advance precision oncology.
+Jinxi Xiang is a postdoctoral fellow at Stanford University. He received his Ph.D. in Engineering from Tsinghua University in 2021. After that, he joined Tencent AI Lab as a senior researcher for two years, specializing in computational pathology, image and video coding, and video generation for game design. His expertise spans multiple disciplines in computer vision and medical image analysis. Currently, his primary focus is leveraging computational pathology and artificial intelligence to advance precision oncology.
+
+**News**
+- [2024-03] One paper accepted _Computational and Structural Biotechnology Journal_. 
+- [2024-01] One paper accepted to _ICLR 2024_.
+- [2023-07] One paper accepted to _British Journal of Cancer_.
+- [2023-07] Two papers accepted to _ACM MM 2023_ (<span style="color:red">one Oral</span>).
+- [2023-01] Two papers accepted to _ICLR 2023_ (<span style="color:red">one Spotlight</span>).
+- [2023-01] One paper accepted to _Computers in Biology and Medicine_.
 
 
 {style="text-align: justify;"}
+

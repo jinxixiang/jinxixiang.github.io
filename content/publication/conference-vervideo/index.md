@@ -37,7 +37,7 @@ abstract: Creating stable, controllable videos is a complex task due to the need
 
 
 # Summary. An optional shortened abstract.
-summary: video generation, diffusion model, temproal modeling.
+summary: _ICLR 2024_
 
 tags: []
 
