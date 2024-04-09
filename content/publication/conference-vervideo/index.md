@@ -56,7 +56,7 @@ url_pdf: 'https://openreview.net/pdf?id=01KmhBsEPFO'
 # url_project: ''
 # url_slides: ''
 # url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://anonymous-pages.github.io/video_demos/'
+url_video: 'https://jinxixiang.github.io/versvideo/'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
