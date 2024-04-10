@@ -1,5 +1,5 @@
 ---
-title: "FISTA-Net: Learning a Fast Iterative Shrinkage Thresholding Network for Inverse Problems in Imaging"
+title: "Multi-Frequency Electromagnetic Tomography for Acute Stroke Detection Using Frequency-Constrained Sparse Bayesian Learning"
 authors:
 - Jinxi Xiang
 - Yonggui Dong
@@ -7,11 +7,11 @@ authors:
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2021-05-01T00:00:00Z"
+date: "2020-12-01T00:00:00Z"
 doi: "10.1109/TMI.2021.3054167"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-05-01T00:00:00Z"
+publishDate: "2020-12-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -19,13 +19,14 @@ publishDate: "2021-05-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Transactions on Medical Imaging, 2021"
+publication: "IEEE Transactions on Medical Imaging, 2020"
 publication_short: "TMI"
 
-abstract: Inverse problems are essential to imaging applications. In this paper, we propose a model-based deep learning network, named FISTA-Net, by combining the merits of interpretability and generality of the model-based Fast Iterative Shrinkage/Thresholding Algorithm (FISTA) and strong regularization and tuning-free advantages of the data-driven neural network. By unfolding the FISTA into a deep network, the architecture of FISTA-Net consists of multiple gradient descent, proximal mapping, and {momentum modules} in cascade. Different from FISTA, the gradient matrix in FISTA-Net can be updated during iteration, and a proximal operator network is developed for nonlinear thresholding, which can be learned through end-to-end training. Key parameters of FISTA-Net, including the gradient step size, thresholding value, and momentum scalar, are tuning-free and learned from training data rather than hand-crafted. We further impose positive and monotonous constraints on these parameters to ensure they converge properly. The experimental results, evaluated both visually and quantitatively, show that the FISTA-Net can optimize parameters for different imaging tasks, i.e. Electromagnetic Tomography (EMT) and X-ray Computational Tomography (X-ray CT). It outperforms the state-of-the-art model-based and deep learning methods and exhibits good generalization ability over other competitive learning-based approaches under different noise levels.
+abstract: Imaging the bio-impedance distribution of the brain can provide initial diagnosis of acute stroke. This paper presents a compact and non-radiative tomographic modality, i.e. multi-frequency Electromagnetic Tomography (mfEMT), for the initial diagnosis of acute stroke. The mfEMT system consists of 12 channels of gradiometer coils with adjustable sensitivity and excitation frequency. To solve the image reconstruction problem of mfEMT, we propose an enhanced Frequency-Constrained Sparse Bayesian Learning (FC-SBL) to simultaneously reconstruct the conductivity distribution at all frequencies. Based on the Multiple Measurement Vector (MMV) model in the Sparse Bayesian Learning (SBL) framework, FC-SBL can recover the underlying distribution pattern of conductivity among multiple images by exploiting the frequency constraint information. A realistic 3D head model was established to simulate stroke detection scenarios, showing the capability of mfEMT to penetrate the highly resistive skull and improved image quality with FC-SBL. Both simulations and experiments showed that the proposed FC-SBL method is robust to noisy data for image reconstruction problems of mfEMT compared to the single measurement vector model, which is promising to detect acute strokes in the brain region with enhanced spatial resolution and in a baseline-free manner.
+
 
 # Summary. An optional shortened abstract.
-summary: IEEE Transactions on Medical Imaging
+summary: IEEE Transactions on Medical Imaging, 2020
 
 
 tags:
@@ -35,8 +36,8 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9335299
-url_code: 'https://github.com/jinxixiang/FISTA-Net'
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/9153038'
+url_code: 'https://github.com/jinxixiang/FCSBL'
 # url_dataset: ''
 # url_poster: ''
 # url_project: ''
@@ -47,7 +48,7 @@ url_code: 'https://github.com/jinxixiang/FISTA-Net'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'The overall architecture of the proposed FISTA-Net.'
+  caption: 'Multiple Measurement Model (MMV) + Sparse Bayesian Learning (SBL).'
   focal_point: ""
   preview_only: false
 
