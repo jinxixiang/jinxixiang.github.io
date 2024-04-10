@@ -8,7 +8,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 date: "2020-12-01T00:00:00Z"
-doi: "10.1109/TMI.2021.3054167"
+doi: "10.1109/TMI.2020.3013100"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-12-01T00:00:00Z"
