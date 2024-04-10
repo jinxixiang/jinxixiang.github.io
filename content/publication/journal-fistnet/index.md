@@ -1,7 +1,7 @@
 ---
 title: "FISTA-Net: Learning a Fast Iterative Shrinkage Thresholding Network for Inverse Problems in Imaging"
 authors:
-- <strong>Jinxi Xiang<strong>
+- <strong>Jinxi Xiang</strong>
 - Yonggui Dong
 - Yunjie Yang
 # author_notes:

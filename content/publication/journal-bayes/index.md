@@ -1,7 +1,7 @@
 ---
 title: "Multi-Frequency Electromagnetic Tomography for Acute Stroke Detection Using Frequency-Constrained Sparse Bayesian Learning"
 authors:
-- <strong>Jinxi Xiang<strong>
+- <strong>Jinxi Xiang</strong>
 - Yonggui Dong
 - Yunjie Yang
 # author_notes:
