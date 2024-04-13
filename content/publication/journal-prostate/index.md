@@ -10,9 +10,11 @@ authors:
 - Wei Yang
 - Xiao Han
 - Yueping Liu
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
+
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+
 date: "2023-01-01T00:00:00Z"
 doi: "10.1016/j.compbiomed.2022.106340"
 
