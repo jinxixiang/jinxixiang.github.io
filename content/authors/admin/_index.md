@@ -123,12 +123,12 @@ highlight_name: true
 Jinxi Xiang is a postdoctoral fellow at Stanford University. He received his Ph.D. in Engineering from Tsinghua University in 2021. After that, he joined Tencent AI Lab as a senior researcher for two years, specializing in computational pathology, image and video coding, and video generation for game design. His expertise spans multiple disciplines in computer vision and medical image analysis. Currently, his primary focus is leveraging computational pathology and artificial intelligence to advance precision oncology.
 
 **News**
-- [2024-09] I was invited to serve as a reviewer for _ICLR 2025_. 
-- [2024-05] I was invited to serve as a reviewer for _ACM Multimedia 2024_. 
+- [2024-09] I was invited to serve as a reviewer for [_ICLR 2025_](https://iclr.cc/). 
+- [2024-05] I was invited to serve as a reviewer for [_ACM Multimedia 2024_](https://2024.acmmm.org/). 
 - [2024-03] One paper accepted _Computational and Structural Biotechnology Journal_. 
 - [2024-01] One paper accepted to _ICLR 2024_.
 - [2023-07] One paper accepted to _British Journal of Cancer_.
-- [2023-07] Two papers accepted to _ACM MM 2023_ (<span style="color:red">one Oral</span>).
+- [2023-07] Two papers accepted to _ACM Multimedia 2023_ (<span style="color:red">one Oral</span>).
 - [2023-01] Two papers accepted to _ICLR 2023_ (<span style="color:red">one Spotlight</span>).
 - [2023-01] One paper accepted to _Computers in Biology and Medicine_.
 
