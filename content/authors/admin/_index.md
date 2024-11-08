@@ -123,7 +123,7 @@ highlight_name: true
 Jinxi Xiang is a postdoctoral fellow at Stanford University (with [Prof. Ruijiang Li](https://med.stanford.edu/lilab.html)). He received his Ph.D. in Engineering from Tsinghua University in 2021. After that, he joined Tencent AI Lab as a senior researcher for two years, specializing in computational pathology, image and video coding, and video generation for game design. His expertise spans multiple disciplines in computer vision and medical image analysis. Currently, his primary focus is leveraging computational pathology and artificial intelligence to advance precision oncology.
 
 **News**
-- [2024-11] Our paper, [*A Vision-Language Foundation Model for Precision Oncology*](https://github.com/lilab-stanford/MUSK), has been accepted by (<span style="color:red">*Nature*</span>)! This marks my first project as first author at Stanford.
+- [2024-11] Our paper, [*A Vision-Language Foundation Model for Precision Oncology*](https://github.com/lilab-stanford/MUSK), has been accepted by <span style="color:red">*Nature*</span>! This marks my first project as first author at Stanford.
 - [2024-09] I was invited to serve as a reviewer for [_ICLR 2025_](https://iclr.cc/). 
 - [2024-05] I was invited to serve as a reviewer for [_ACM Multimedia 2024_](https://2024.acmmm.org/). 
 - [2024-03] One paper accepted _Computational and Structural Biotechnology Journal_. 
