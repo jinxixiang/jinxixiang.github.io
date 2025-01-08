@@ -20,14 +20,26 @@ authors:
 - Sen Yang  
 - Ruijiang Li  
 
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
-
 author_notes:
-- Jinxi Xiang: "Equal contribution"
-- Xiyue Wang: "Equal contribution"
-- Ruijiang Li: "Lead Contact"
+- Equal contribution
+- Equal contribution
+- 
+-   
+-  
+-   
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+-  
+- 
+- 
+- Lead contact
+
 
 
 date: "2025-01-08T00:00:00Z"
