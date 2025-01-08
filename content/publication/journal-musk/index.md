@@ -1,5 +1,5 @@
 ---
-title: "A vision–language foundation model for precision oncology"
+title: "A Vision–language Foundation Model for Precision Oncology"
 authors:
 - Jinxi Xiang
 - Xiyue wang
