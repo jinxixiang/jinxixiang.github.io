@@ -37,8 +37,8 @@ author_notes:
 - 
 -  
 - 
-- 
-- Lead contact
+- Corresponding author
+- Corresponding author & Lead contact
 
 
 
