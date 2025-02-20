@@ -130,11 +130,11 @@ Jinxi Xiang is a postdoctoral fellow at Stanford University (with [Prof. Ruijian
 <!-- - [2024-09] I was invited to serve as a reviewer for [_ICLR 2025_](https://iclr.cc/).  -->
 <!-- - [2024-05] I was invited to serve as a reviewer for [_ACM Multimedia 2024_](https://2024.acmmm.org/).  -->
 <!-- - [2024-03] One paper accepted _Computational and Structural Biotechnology Journal_.  -->
-- [2024-01] One paper accepted to _ICLR 2024_. -->
+- [2024-01] One paper accepted to _ICLR 2024_.
 - [2023-07] One paper accepted to _British Journal of Cancer_.
 - [2023-07] Two papers accepted to _ACM Multimedia 2023_ (<span style="color:red">one Oral</span>).
 - [2023-01] Two papers accepted to _ICLR 2023_ (<span style="color:red">one Spotlight</span>).
-<!-- <!-- - [2023-01] One paper accepted to _Computers in Biology and Medicine_. -->
+<!-- - [2023-01] One paper accepted to _Computers in Biology and Medicine_. -->
 
 
 {style="text-align: justify;"}
