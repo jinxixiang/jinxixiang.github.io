@@ -120,7 +120,7 @@ social:
 highlight_name: true
 ---
 
-Jinxi Xiang is a Postdoctoral Researcher at Stanford University School of Medicine, working with [Prof. Ruijiang Li](https://med.stanford.edu/lilab.html) to pioneer AI-driven innovations for precision oncology. He earned his Ph.D. in Instrumentation Engineering from Tsinghua University in 2021. Prior to Stanford, Dr. Xiang spent two years as a Senior Researcher at Tencent AI Lab, leading projects in computational pathology, image/video compression, and generative video models for gaming applications.
+Jinxi Xiang (Derek) is a Postdoctoral Researcher at Stanford University School of Medicine, working with [Prof. Ruijiang Li](https://med.stanford.edu/lilab.html) to pioneer AI-driven innovations for precision oncology. He earned his Ph.D. in Instrumentation Engineering from Tsinghua University in 2021. Prior to Stanford, Dr. Xiang spent two years as a Senior Researcher at Tencent AI Lab, leading projects in computational pathology, image/video compression, and generative video models for gaming applications.
 
 With expertise bridging computer vision, medical image analysis, and AI, his interdisciplinary approach emphasizes translating technical advances into clinical practice, particularly through computational pathology and multimodal AI. Dr. Xiang’s current work focuses on developing scalable AI tools to optimize cancer diagnosis and treatment, fostering collaborations between engineers, clinicians, and industry partners.
 
