@@ -120,7 +120,11 @@ social:
 highlight_name: true
 ---
 
-Jinxi Xiang is a postdoctoral fellow at Stanford University (with [Prof. Ruijiang Li](https://med.stanford.edu/lilab.html)). He received his Ph.D. in Engineering from Tsinghua University in 2021. After that, he joined Tencent AI Lab as a senior researcher for two years, specializing in computational pathology, image and video coding, and video generation for game design. His expertise spans multiple disciplines in computer vision and medical image analysis. Currently, his primary focus is leveraging computational pathology and artificial intelligence to advance precision oncology.
+Jinxi Xiang is a Postdoctoral Researcher at Stanford University School of Medicine, working with [Prof. Ruijiang Li](https://med.stanford.edu/lilab.html) to pioneer AI-driven innovations for precision oncology. He earned his Ph.D. in Instrumentation Engineering from Tsinghua University in 2021. Prior to Stanford, Dr. Xiang spent two years as a Senior Researcher at Tencent AI Lab, leading projects in computational pathology, image/video compression, and generative video models for gaming applications.
+
+With expertise bridging computer vision, medical image analysis, and AI, his interdisciplinary approach emphasizes translating technical advances into clinical practice, particularly through computational pathology and multimodal AI. Dr. Xiang’s current work focuses on developing scalable AI tools to optimize cancer diagnosis and treatment, fostering collaborations between engineers, clinicians, and industry partners.
+
+
 
 **News**
 - [2025-02] [_Nature Cancer_](https://www.nature.com/articles/s43018-025-00923-4) highlighted the development of foundation models such as _MUSK_, which marks substantial progress in the field of digital pathology.
