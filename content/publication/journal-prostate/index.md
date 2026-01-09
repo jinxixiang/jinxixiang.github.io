@@ -2,7 +2,7 @@
 title: "Automatic Diagnosis and Grading of Prostate Cancer with Weakly Supervised Learning on Whole Slide Images"
 
 authors:
-- Jinxi Xiang
+- admin
 - Xiyue Wang
 - Xinran Wang
 - Jun Zhang
