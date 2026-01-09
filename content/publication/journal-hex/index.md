@@ -3,7 +3,7 @@ title: "AI-enabled virtual spatial proteomics from histopathology for interpreta
 authors:
 - Zhe Li
 - Yuchen Li
-- "<b><u>Jinxi Xiang</u></b>"
+- admin
 - Xiyue Wang
 - Sen Yang
 - Xiaoming Zhang
