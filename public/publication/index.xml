@@ -63,6 +63,14 @@
     </item>
     
     <item>
+      <title>nnMIL: A Generalizable Multiple Instance Learning Framework for Computational Pathology</title>
+      <link>http://localhost:1313/publication/preprint-nnmil/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/preprint-nnmil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>FISTA-Net: Learning a Fast Iterative Shrinkage Thresholding Network for Inverse Problems in Imaging</title>
       <link>http://localhost:1313/publication/journal-fistnet/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>

@@ -30,7 +30,7 @@ summary: IEEE Transactions on Medical Imaging, 2021
 
 tags:
 - Source Themes
-featured: true
+featured: false
 weight: 50
 
 # links:
