@@ -266,6 +266,7 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
+  - block: clustrmaps
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
