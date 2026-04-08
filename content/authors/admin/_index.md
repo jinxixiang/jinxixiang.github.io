@@ -134,11 +134,11 @@ Dr. Xiang pursues this through multimodal foundation models that integrate histo
 - [2025-02] [_Nature Cancer_](https://www.nature.com/articles/s43018-025-00923-4) highlighted the development of foundation models such as _MUSK_, which marks substantial progress in the field of digital pathology.
 - [2025-01] Our study, _MUSK_, was featured by many platforms such as  [Stanford Medicine](https://med.stanford.edu/news/all-news/2025/01/ai-cancer-prognosis.html), [Stanford Report](https://news.stanford.edu/stories/2025/01/ai-cancer-prognosis?utm_source=feedotter&utm_medium=email&utm_campaign=int-01-12-2025&utm_content=httpsnewsstanfordedustories202501aicancerprognosis&mkt_tok=NjYwLVRKQy05ODQAAAGX_vLBS7lrEzng9jTJxPKT0Le5iqCRXqacAIgmR9D1HMdStSRoQafpAQXKK1lrzgG0PSXCShOb71A8v9nPgzVFV3Mw5ihnb8zR7Sogosw), [Stanford HAI](https://hai.stanford.edu/news/stanfords-multimodal-ai-model-advances-personalized-cancer-care), [NVIDIA News](https://developer.nvidia.com/blog/ai-foundation-model-enhances-cancer-diagnosis-and-tailors-treatment/),  [Stanford Daily](https://stanforddaily.com/2025/02/04/the-musk-model/?utm_campaign=digest&utm_medium=email&utm_source=mailchimp&utm_content=Feb-04-2025?utm_campaign=digest&utm_medium=email&utm_source=mailchimp&utm_content=Feb-04-2025), [BioArt(Chinese)](https://mp.weixin.qq.com/s/ohcwqXaQKPwU_Gzz6Hz0Qg), [AdvanceBC(Chinese)](https://mp.weixin.qq.com/s/SclhITWV-aFJertrFqlB2w), and more.
 - [2025-01] Our paper, [*A Vision-Language Foundation Model for Precision Oncology*](https://www.nature.com/articles/s41586-024-08378-w), has been published in <span style="color:red">*Nature*</span>.
-- [2024-11] Our paper, *A Vision-Language Foundation Model for Precision Oncology*, has been accepted by <span style="color:red">*Nature*</span>! This is my first project at Stanford.
-- [2024-01] One paper accepted to _ICLR 2024_.
+- [2024-11] Our paper, *A Vision-Language Foundation Model for Precision Oncology*, has been accepted by <span style="color:red">*Nature*</span>! 
+<!-- - [2024-01] One paper accepted to _ICLR 2024_.
 - [2023-07] One paper accepted to _British Journal of Cancer_.
 - [2023-07] Two papers accepted to _ACM Multimedia 2023_ (<span style="color:red">one Oral</span>).
-- [2023-01] Two papers accepted to _ICLR 2023_ (<span style="color:red">one Spotlight</span>).
+- [2023-01] Two papers accepted to _ICLR 2023_ (<span style="color:red">one Spotlight</span>). -->
 <!-- - [2023-01] One paper accepted to _Computers in Biology and Medicine_. -->
 <!-- - [2024-09] I was invited to serve as a reviewer for [_ICLR 2025_](https://iclr.cc/).  -->
 <!-- - [2024-05] I was invited to serve as a reviewer for [_ACM Multimedia 2024_](https://2024.acmmm.org/).  -->
