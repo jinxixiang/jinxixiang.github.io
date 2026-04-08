@@ -42,6 +42,7 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block: clustrmaps
   # - block: skills
   #   content:
   #     title: News
@@ -266,7 +267,6 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  - block: clustrmaps
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
