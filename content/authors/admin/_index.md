@@ -145,5 +145,9 @@ Dr. Xiang pursues this through multimodal foundation models that integrate histo
 <!-- - [2024-03] One paper accepted _Computational and Structural Biotechnology Journal_.  -->
 
 
+<div style="text-align: center; margin-top: 1rem;">
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=UWeoQeMnbB0F94CEKGdFxfyUkhx9BoLTak3fhSIQEec&cl=ffffff&w=300"></script>
+</div>
+
 {style="text-align: justify;"}
 
