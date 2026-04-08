@@ -5,7 +5,7 @@
     <link>http://localhost:1313/publication-type/article-journal/</link>
       <atom:link href="http://localhost:1313/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2099 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu5b01fa446aee0ba96e6466015afa9712_7278_512x512_fill_lanczos_center_3.png</url>
       <title>Article-Journal</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Automatic Diagnosis and Grading of Prostate Cancer with Weakly Supervised Learning on Whole Slide Images</title>
-      <link>http://localhost:1313/publication/journal-prostate/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-prostate/</guid>
+      <title>A Vision–language Foundation Model for Precision Oncology</title>
+      <link>http://localhost:1313/publication/journal-musk/</link>
+      <pubDate>Thu, 01 Jan 2099 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-musk/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -39,10 +39,44 @@
     </item>
     
     <item>
+      <title>AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer</title>
+      <link>http://localhost:1313/publication/journal-hex/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-hex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>FISTA-Net: Learning a Fast Iterative Shrinkage Thresholding Network for Inverse Problems in Imaging</title>
       <link>http://localhost:1313/publication/journal-fistnet/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/journal-fistnet/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Diagnosis and Grading of Prostate Cancer with Weakly Supervised Learning on Whole Slide Images</title>
+      <link>http://localhost:1313/publication/journal-prostate/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-prostate/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;

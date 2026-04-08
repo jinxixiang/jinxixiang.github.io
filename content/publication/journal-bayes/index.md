@@ -31,7 +31,7 @@ summary: IEEE Transactions on Medical Imaging, 2020
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 # links:
 # - name: ""

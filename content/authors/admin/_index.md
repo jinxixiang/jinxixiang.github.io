@@ -128,6 +128,7 @@ Dr. Xiang pursues this through multimodal foundation models that integrate histo
 
 
 **News**
+- [2026-04] Two new preprints of multimodal histopathology AI released: [*STORM*](https://storm-web-demo.vercel.app/) and [*MUPAD*](https://mupad-demo.vercel.app/).
 - [2026-01] Our paper, [*AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer*](https://www.nature.com/articles/s41591-025-04060-4), has been published in <span style="color:red">*Nature Medicine*</span>.
 - [2025-08] Invited to serve as an Area Chair for [_ICLR 2026_](https://iclr.cc/).
 - [2025-02] [_Nature Cancer_](https://www.nature.com/articles/s43018-025-00923-4) highlighted the development of foundation models such as _MUSK_, which marks substantial progress in the field of digital pathology.

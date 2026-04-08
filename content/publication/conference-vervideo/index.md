@@ -42,7 +42,7 @@ summary: _ICLR 2024_
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:

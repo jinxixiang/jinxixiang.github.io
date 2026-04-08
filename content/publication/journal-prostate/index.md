@@ -38,7 +38,7 @@ summary: Computers in Biology and Medicine, 2023
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 # links:
 # - name: ""
