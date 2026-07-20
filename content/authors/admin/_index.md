@@ -1,4 +1,9 @@
 ---
+# Publish this profile page even though sibling author (co-author) pages stay unpublished
+_build:
+  render: always
+  list: always
+
 # Display name
 title: Jinxi Xiang
 

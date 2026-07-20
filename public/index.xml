@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jinxi Xiang</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinxixiang.com/</link>
+      <atom:link href="https://jinxixiang.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinxi Xiang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_29c50c56564f7f16.png</url>
+      <url>https://jinxixiang.com/media/icon_hu_29c50c56564f7f16.png</url>
       <title>Jinxi Xiang</title>
-      <link>http://localhost:1313/</link>
+      <link>https://jinxixiang.com/</link>
     </image>
     
     <item>
       <title>A Vision–language Foundation Model for Precision Oncology</title>
-      <link>http://localhost:1313/publication/journal-musk/</link>
+      <link>https://jinxixiang.com/publication/journal-musk/</link>
       <pubDate>Thu, 01 Jan 2099 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-musk/</guid>
+      <guid>https://jinxixiang.com/publication/journal-musk/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -40,41 +40,41 @@
     
     <item>
       <title>A Multimodal Foundation Model of Spatial Transcriptomics and Histology for Biological Discovery and Clinical Prediction</title>
-      <link>http://localhost:1313/publication/preprint-storm/</link>
+      <link>https://jinxixiang.com/publication/preprint-storm/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint-storm/</guid>
+      <guid>https://jinxixiang.com/publication/preprint-storm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Generative Foundation Model for Multimodal Histopathology</title>
-      <link>http://localhost:1313/publication/preprint-mupd/</link>
+      <link>https://jinxixiang.com/publication/preprint-mupd/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint-mupd/</guid>
+      <guid>https://jinxixiang.com/publication/preprint-mupd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer</title>
-      <link>http://localhost:1313/publication/journal-hex/</link>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-hex/</guid>
+      <link>https://jinxixiang.com/publication/journal-hex/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://jinxixiang.com/publication/journal-hex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nnMIL: A Generalizable Multiple Instance Learning Framework for Computational Pathology</title>
-      <link>http://localhost:1313/publication/preprint-nnmil/</link>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint-nnmil/</guid>
+      <link>https://jinxixiang.com/publication/preprint-nnmil/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://jinxixiang.com/publication/preprint-nnmil/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FISTA-Net: Learning a Fast Iterative Shrinkage Thresholding Network for Inverse Problems in Imaging</title>
-      <link>http://localhost:1313/publication/journal-fistnet/</link>
+      <link>https://jinxixiang.com/publication/journal-fistnet/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-fistnet/</guid>
+      <guid>https://jinxixiang.com/publication/journal-fistnet/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -98,9 +98,9 @@
     
     <item>
       <title>Example Talk</title>
-      <link>http://localhost:1313/talk/example-talk/</link>
+      <link>https://jinxixiang.com/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/talk/example-talk/</guid>
+      <guid>https://jinxixiang.com/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -118,9 +118,9 @@
     
     <item>
       <title>Two new preprints released on arXiv!</title>
-      <link>http://localhost:1313/post/new-preprints-2026/</link>
+      <link>https://jinxixiang.com/post/new-preprints-2026/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/new-preprints-2026/</guid>
+      <guid>https://jinxixiang.com/post/new-preprints-2026/</guid>
       <description>&lt;p&gt;We are excited to share two new preprints released on arXiv:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;STORM: A Multimodal Foundation Model of Spatial Transcriptomics and Histology for Biological Discovery and Clinical Prediction&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;STORM bridges spatial transcriptomics and histology imaging, trained on ~1.2 million transcriptomic profiles across 18 organs. Tested across 23 independent patient cohorts, it achieves improved predictions for immunotherapy response and clinical outcomes.&lt;/p&gt;
@@ -133,21 +133,10 @@
     </item>
     
     <item>
-      <title>HEX: AI-enabled virtual spatial proteomics published in Nature Medicine!</title>
-      <link>http://localhost:1313/post/hex-protemics-nature/</link>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hex-protemics-nature/</guid>
-      <description>&lt;p&gt;We are excited to share that our work &amp;ldquo;AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer&amp;rdquo; has been published in &lt;strong&gt;Nature Medicine&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;HEX is an AI model designed to computationally generate spatial proteomics profiles from standard histopathology slides. It enables high-resolution mapping of protein expression and can transform our understanding of biology and disease.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.nature.com/articles/s41591-025-04060-4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the paper here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Artificial Intelligence Transforms The Way We Learn</title>
-      <link>http://localhost:1313/post/ai_edu/</link>
+      <link>https://jinxixiang.com/post/ai_edu/</link>
       <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/ai_edu/</guid>
+      <guid>https://jinxixiang.com/post/ai_edu/</guid>
       <description>&lt;p&gt;As a multidisciplinary researcher, I have worked on many different projects in universities and industry. Like many other engineering students who major in &amp;rsquo;traditional engineering,&amp;rsquo; which has been developing for decades, I witnessed the decline of these subjects, which are overtaken by AI overnight. For example, as an undergraduate student, I struggled to learn the basic theory of signal processing, which is overwhelmed by a mathematical wall. As a reviewer for signal processing-related papers in recent years, I saw no related up-to-date research based on the traditional methodology. Instead, AI models with large-scale data collection and developing well-designed training paradigms surpass the conventional methods by a large margin. That makes me wonder where our way of learning is heading in the era of AI.&lt;/p&gt;
 &lt;h2 id=&#34;the-impact-of-ai-on-learning&#34;&gt;The Impact of AI on Learning&lt;/h2&gt;
 &lt;p&gt;Artificial intelligence will take over human capability (not intelligence) in the near future. The fundamental reason is that machines can keep learning infinitely while our biological limitations bind humans. We need rest, leisure, and entertainment, and we have sinful laziness occasionally. All these limitations are not present in machines. The impact of artificial intelligence on higher education is as significant as the birth of modern universities in Europe in the twelfth century, marking a fundamental transformation. AI will rebuild all subjects. In the future, as artificial intelligence develops rapidly, the existing university organizational structures, disciplinary systems, knowledge frameworks, and teaching methods could be completely dismantled and rebuilt.&lt;/p&gt;
@@ -165,9 +154,9 @@ For example, if an AI model performs a task in all unseen datasets with nearly 1
     
     <item>
       <title>Nvidia GTC 2024!</title>
-      <link>http://localhost:1313/post/gtc_2024/</link>
+      <link>https://jinxixiang.com/post/gtc_2024/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/gtc_2024/</guid>
+      <guid>https://jinxixiang.com/post/gtc_2024/</guid>
       <description>&lt;p&gt;
 
 
@@ -190,7 +179,7 @@ For example, if an AI model performs a task in all unseen datasets with nearly 1
                /post/gtc_2024/IMG_7612_hu_b860da81b9f58c5f.webp 400w,
                /post/gtc_2024/IMG_7612_hu_ca7233954607f9a9.webp 760w,
                /post/gtc_2024/IMG_7612_hu_ad1c438c1173ab5c.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/gtc_2024/IMG_7612_hu_b860da81b9f58c5f.webp&#34;
+               src=&#34;https://jinxixiang.com/post/gtc_2024/IMG_7612_hu_b860da81b9f58c5f.webp&#34;
                width=&#34;570&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -201,9 +190,9 @@ For example, if an AI model performs a task in all unseen datasets with nearly 1
     
     <item>
       <title>VersVideo: Leveraging Enhanced Temporal Diffusion Models for Versatile Video Generation</title>
-      <link>http://localhost:1313/publication/conference-vervideo/</link>
+      <link>https://jinxixiang.com/publication/conference-vervideo/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-vervideo/</guid>
+      <guid>https://jinxixiang.com/publication/conference-vervideo/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -228,9 +217,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Exploring Low-Rank Property in Multiple Instance Learning for Whole Slide Image Classification</title>
-      <link>http://localhost:1313/publication/conference-ilra/</link>
+      <link>https://jinxixiang.com/publication/conference-ilra/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-ilra/</guid>
+      <guid>https://jinxixiang.com/publication/conference-ilra/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -255,9 +244,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>MIMT: Masked Image Modeling Transformer for Video Compression</title>
-      <link>http://localhost:1313/publication/conference-mimt/</link>
+      <link>https://jinxixiang.com/publication/conference-mimt/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-mimt/</guid>
+      <guid>https://jinxixiang.com/publication/conference-mimt/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -282,9 +271,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Automatic Diagnosis and Grading of Prostate Cancer with Weakly Supervised Learning on Whole Slide Images</title>
-      <link>http://localhost:1313/publication/journal-prostate/</link>
+      <link>https://jinxixiang.com/publication/journal-prostate/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-prostate/</guid>
+      <guid>https://jinxixiang.com/publication/journal-prostate/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -308,9 +297,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Multi-Frequency Electromagnetic Tomography for Acute Stroke Detection Using Frequency-Constrained Sparse Bayesian Learning</title>
-      <link>http://localhost:1313/publication/journal-bayes/</link>
+      <link>https://jinxixiang.com/publication/journal-bayes/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-bayes/</guid>
+      <guid>https://jinxixiang.com/publication/journal-bayes/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -334,9 +323,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/example/</link>
+      <link>https://jinxixiang.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/example/</guid>
+      <guid>https://jinxixiang.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-hugo-blox-builder&#34;&gt;Create slides in Markdown with Hugo Blox Builder&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://hugoblox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; | &lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -458,28 +447,10 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>http://localhost:1313/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/privacy/</guid>
-      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>http://localhost:1313/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/terms/</guid>
-      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Example Project</title>
-      <link>http://localhost:1313/project/cpath/</link>
+      <link>https://jinxixiang.com/project/cpath/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/cpath/</guid>
+      <guid>https://jinxixiang.com/project/cpath/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -490,9 +461,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Example Project</title>
-      <link>http://localhost:1313/project/imaging/</link>
+      <link>https://jinxixiang.com/project/imaging/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/imaging/</guid>
+      <guid>https://jinxixiang.com/project/imaging/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -503,9 +474,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Example Project</title>
-      <link>http://localhost:1313/project/vision/</link>
+      <link>https://jinxixiang.com/project/vision/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/vision/</guid>
+      <guid>https://jinxixiang.com/project/vision/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -516,9 +487,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>External Project</title>
-      <link>http://localhost:1313/project/external-project/</link>
+      <link>https://jinxixiang.com/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/external-project/</guid>
+      <guid>https://jinxixiang.com/project/external-project/</guid>
       <description></description>
     </item>
     

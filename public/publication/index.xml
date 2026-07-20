@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Jinxi Xiang</title>
-    <link>http://localhost:1313/publication/</link>
-      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinxixiang.com/publication/</link>
+      <atom:link href="https://jinxixiang.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2099 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_29c50c56564f7f16.png</url>
+      <url>https://jinxixiang.com/media/icon_hu_29c50c56564f7f16.png</url>
       <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>https://jinxixiang.com/publication/</link>
     </image>
     
     <item>
       <title>A Vision–language Foundation Model for Precision Oncology</title>
-      <link>http://localhost:1313/publication/journal-musk/</link>
+      <link>https://jinxixiang.com/publication/journal-musk/</link>
       <pubDate>Thu, 01 Jan 2099 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-musk/</guid>
+      <guid>https://jinxixiang.com/publication/journal-musk/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -40,41 +40,41 @@
     
     <item>
       <title>A Multimodal Foundation Model of Spatial Transcriptomics and Histology for Biological Discovery and Clinical Prediction</title>
-      <link>http://localhost:1313/publication/preprint-storm/</link>
+      <link>https://jinxixiang.com/publication/preprint-storm/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint-storm/</guid>
+      <guid>https://jinxixiang.com/publication/preprint-storm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Generative Foundation Model for Multimodal Histopathology</title>
-      <link>http://localhost:1313/publication/preprint-mupd/</link>
+      <link>https://jinxixiang.com/publication/preprint-mupd/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint-mupd/</guid>
+      <guid>https://jinxixiang.com/publication/preprint-mupd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer</title>
-      <link>http://localhost:1313/publication/journal-hex/</link>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-hex/</guid>
+      <link>https://jinxixiang.com/publication/journal-hex/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://jinxixiang.com/publication/journal-hex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nnMIL: A Generalizable Multiple Instance Learning Framework for Computational Pathology</title>
-      <link>http://localhost:1313/publication/preprint-nnmil/</link>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint-nnmil/</guid>
+      <link>https://jinxixiang.com/publication/preprint-nnmil/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://jinxixiang.com/publication/preprint-nnmil/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FISTA-Net: Learning a Fast Iterative Shrinkage Thresholding Network for Inverse Problems in Imaging</title>
-      <link>http://localhost:1313/publication/journal-fistnet/</link>
+      <link>https://jinxixiang.com/publication/journal-fistnet/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-fistnet/</guid>
+      <guid>https://jinxixiang.com/publication/journal-fistnet/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -98,9 +98,9 @@
     
     <item>
       <title>VersVideo: Leveraging Enhanced Temporal Diffusion Models for Versatile Video Generation</title>
-      <link>http://localhost:1313/publication/conference-vervideo/</link>
+      <link>https://jinxixiang.com/publication/conference-vervideo/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-vervideo/</guid>
+      <guid>https://jinxixiang.com/publication/conference-vervideo/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -125,9 +125,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Exploring Low-Rank Property in Multiple Instance Learning for Whole Slide Image Classification</title>
-      <link>http://localhost:1313/publication/conference-ilra/</link>
+      <link>https://jinxixiang.com/publication/conference-ilra/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-ilra/</guid>
+      <guid>https://jinxixiang.com/publication/conference-ilra/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -152,9 +152,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>MIMT: Masked Image Modeling Transformer for Video Compression</title>
-      <link>http://localhost:1313/publication/conference-mimt/</link>
+      <link>https://jinxixiang.com/publication/conference-mimt/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-mimt/</guid>
+      <guid>https://jinxixiang.com/publication/conference-mimt/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -179,9 +179,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Automatic Diagnosis and Grading of Prostate Cancer with Weakly Supervised Learning on Whole Slide Images</title>
-      <link>http://localhost:1313/publication/journal-prostate/</link>
+      <link>https://jinxixiang.com/publication/journal-prostate/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-prostate/</guid>
+      <guid>https://jinxixiang.com/publication/journal-prostate/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -205,9 +205,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Multi-Frequency Electromagnetic Tomography for Acute Stroke Detection Using Frequency-Constrained Sparse Bayesian Learning</title>
-      <link>http://localhost:1313/publication/journal-bayes/</link>
+      <link>https://jinxixiang.com/publication/journal-bayes/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-bayes/</guid>
+      <guid>https://jinxixiang.com/publication/journal-bayes/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
