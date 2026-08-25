@@ -23,7 +23,7 @@ tags:
 featured: true
 weight: 50
 
-url_pdf: 'https://arxiv.org/abs/2511.14907'
+url_pdf: 'https://www.nature.com/articles/s41551-026-01767-8'
 url_code: 'https://github.com/Luoxd1996/nnMIL'
 
 image:
