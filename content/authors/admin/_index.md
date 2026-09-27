@@ -134,6 +134,7 @@ Dr. Xiang pursues this through multimodal foundation models that integrate histo
 
 **News**
 - [2026-08] Invited to serve as an Area Chair for [_ICLR 2027_](https://iclr.cc/).
+- [2026-07] Our paper, [*A unified vision-language model for precision oncology and biomarker prediction in neuroblastoma*](https://www.nature.com/articles/s41467-026-74865-5) (NEVA), has been published in <span style="color:red">*Nature Communications*</span>.
 - [2026-05] Recognized as a Gold Reviewer for [_ICML 2026_](https://icml.cc/).
 - [2026-04] Two new preprints of multimodal histopathology AI released: [*STORM*](https://storm-web-demo.vercel.app/) and [*MUPAD*](https://mupad-demo.vercel.app/).
 - [2026-01] Our paper, [*AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer*](https://www.nature.com/articles/s41591-025-04060-4), has been published in <span style="color:red">*Nature Medicine*</span>.

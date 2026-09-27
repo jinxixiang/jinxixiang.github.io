@@ -72,6 +72,7 @@ summary: "Nature Communications, 2026"
 featured: true
 weight: 60
 url_pdf: "https://www.nature.com/articles/s41467-026-74865-5"
+url_code: "https://github.com/ascklasn/NEVA"
 image:
   caption: 'NEVA: a vision-language foundation model for neuroblastoma.'
   focal_point: ""
