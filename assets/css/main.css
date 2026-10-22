@@ -475,7 +475,7 @@ sup { font-size: 0.7em; line-height: 0; }
 
 .cv__item {
   display: grid;
-  grid-template-columns: 56px 1fr auto;
+  grid-template-columns: 56px 1fr;
   align-items: start;
   gap: 16px;
   padding: 16px 18px;
@@ -518,12 +518,12 @@ sup { font-size: 0.7em; line-height: 0; }
 .cv__note { font-size: 0.9rem; line-height: 1.5; color: var(--muted); }
 
 .cv__dates {
-  padding-top: 2px;
-  font-size: 0.85rem;
+  font-size: 0.86rem;
   color: var(--faint);
   font-variant-numeric: tabular-nums;
-  white-space: nowrap;
 }
+
+.cv__duration { white-space: nowrap; }
 
 /* Publications page
    ========================================================================== */
@@ -709,8 +709,7 @@ sup { font-size: 0.7em; line-height: 0; }
   .news__item { grid-template-columns: 1fr; gap: 2px; }
 
   .cv__item { grid-template-columns: 48px 1fr; gap: 4px 14px; padding: 14px; }
-  .cv__logo { width: 48px; height: 48px; padding: 3px; grid-row: span 2; }
-  .cv__dates { grid-column: 2; padding-top: 0; }
+  .cv__logo { width: 48px; height: 48px; padding: 3px; }
   .news__year:empty { display: none; }
 
   .pub-year { grid-template-columns: 1fr; }

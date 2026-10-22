@@ -1,8 +1,14 @@
-{{- /* Experience/education cards. Context: dict with `heading` and `items`. */ -}}
+{{- /*
+  Experience/education cards. Context: dict with `heading`, `items`, and
+  `duration` (show LinkedIn-style "2 yrs 8 mos" after the date range).
+*/ -}}
 <div class="cv-group">
   <h3 class="eyebrow cv-group__heading">{{ .heading }}</h3>
   <ol class="cv">
     {{- range .items }}
+    {{- $start := time (printf "%s-01" .start) }}
+    {{- $end := now }}
+    {{- with .end }}{{ $end = time (printf "%s-01" .) }}{{ end }}
     <li class="cv__item">
       <span class="cv__logo">
         {{- with resources.Get (printf "media/logos/%s.png" .logo) }}
@@ -13,11 +19,24 @@
       <div class="cv__body">
         <p class="cv__org">{{ .org }}</p>
         <p class="cv__title">{{ .title }}</p>
+        <p class="cv__dates">
+          <time datetime="{{ $start.Format "2006-01" }}">{{ $start.Format "Jan 2006" }}</time> –
+          {{ with .end }}<time datetime="{{ $end.Format "2006-01" }}">{{ $end.Format "Jan 2006" }}</time>{{ else }}Present{{ end }}
+          {{- if $.duration }}
+          {{- /* Inclusive month count, as LinkedIn shows it. */}}
+          {{- $months := add (sub (add (mul $end.Year 12) (int ($end.Format "1"))) (add (mul $start.Year 12) (int ($start.Format "1")))) 1 }}
+          {{- $y := div $months 12 }}
+          {{- $m := mod $months 12 }}
+          {{- $parts := slice }}
+          {{- if $y }}{{ $parts = $parts | append (printf "%d %s" $y (cond (eq $y 1) "yr" "yrs")) }}{{ end }}
+          {{- if $m }}{{ $parts = $parts | append (printf "%d %s" $m (cond (eq $m 1) "mo" "mos")) }}{{ end }}
+          <span class="cv__duration"> · {{ delimit $parts " " }}</span>
+          {{- end }}
+        </p>
         {{- with .note }}
         <p class="cv__note">{{ . }}</p>
         {{- end }}
       </div>
-      <span class="cv__dates">{{ .start }}–{{ .end | default "present" }}</span>
     </li>
     {{- end }}
   </ol>

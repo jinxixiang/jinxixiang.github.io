@@ -1,39 +1,40 @@
-# Newest first within each group. Leave `end` empty for a current position.
+# Newest first within each group. Dates are "YYYY-MM", matching LinkedIn;
+# leave `end` empty for a current position.
 # `logo` is a file name (without .png) in assets/media/logos/.
 positions:
   - title: Postdoctoral Fellow
     org: Stanford University
     logo: stanford
     note: Medical AI for precision oncology, with Prof. Ruijiang Li
-    start: 2024
+    start: "2024-03"
     end:
   - title: Senior Researcher
     org: Tencent AI Lab
     logo: tencent
     note: Computational pathology, image/video coding, video generation
-    start: 2021
-    end: 2024
+    start: "2021-07"
+    end: "2024-02"
   - title: Research Intern
     org: SenseTime
     logo: sensetime
     note: Medical image analysis
-    start: 2020
-    end: 2021
+    start: "2020-12"
+    end: "2021-05"
 
 education:
   - title: Ph.D. in Engineering
     org: Tsinghua University
     logo: tsinghua
     note: Electromagnetic tomography; medical imaging
-    start: 2016
-    end: 2021
+    start: "2016-09"
+    end: "2021-07"
   - title: Visiting Ph.D. Student
     org: University of Edinburgh
     logo: edinburgh
-    start: 2019
-    end: 2020
+    start: "2019-10"
+    end: "2020-10"
   - title: B.E. in Engineering
     org: Wuhan University
     logo: wuhan
-    start: 2012
-    end: 2016
+    start: "2012-09"
+    end: "2016-07"
