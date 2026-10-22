@@ -2,6 +2,11 @@
 - date: 2026-10
   text: Invited to serve as an Area Chair for [*ICML 2027*](https://icml.cc/).
 - date: 2026-08
+  highlight: true
+  text: >-
+    [*nnMIL: A generalizable multiple instance learning framework for computational pathology*](https://www.nature.com/articles/s41551-026-01767-8)
+    published in **Nature Biomedical Engineering**.
+- date: 2026-08
   text: Invited to serve as an Area Chair for [*ICLR 2027*](https://iclr.cc/).
 - date: 2026-07
   highlight: true
