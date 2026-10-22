@@ -43,7 +43,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://pdf.sciencedirectassets.com/271150/1-s2.0-S0010482522X00127/1-s2.0-S0010482522010484/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLWVhc3QtMSJGMEQCIBntjL2Xk54QzlRkk7NS5BkJ32%2BFDaQ6aBRUenL5GHpcAiAbI0ys8q4muejbkL5XSPjeoZ0VbpPo772ZHE5zIdSydCqyBQhsEAUaDDA1OTAwMzU0Njg2NSIM8oV9mfAaTIroa1s6Ko8F9%2BQY2LKJTDMMErftvycYd78dIJGLJuYDOAzkkEVjWqjatAcc8UL%2BnC2Jess0DIBGGwJbi%2F6XYkhbyZNZJm9gzD5mbJcsECQHY2Ju0nm77aLcxzu%2FCuSOFYGu83VGUkxvGOH8kotNlrI0hbiWrOh4nGT%2BN3fF61ZHtP%2FTx8x4k16aSeyfFsDKvuCHXZDiCUs1dPE4XTNFVsiXY9ScwqVGOQ0Xbb0eUiPzJzuykCYxwmMdaoLrX9%2BVjgnj776RWDzUm2O6%2B2klG2W0iXWY8ncLNXaObrVGAIq%2BZiCNuOsdF1XQvQOvDq9krPePjYKd69cGEP6VranW%2BVCCEk1d5jzPXjal29wRsRboFH%2BNHH0xWDZUenuvXC1S9i9Fam5mL6sAfK%2B1FL32iJvo0F%2F8Ys%2BsTHtgYpDalmEzxp%2Bo3c12lYCMP%2FDUlI4o7JuTM4nBvHqYKwGSudGfOXWZJvn3pGwJ6ILcIdsXyOmQjh9P7O4X3Kfd9JHQBdpAL14IffmRyThJoZJQfAqgx%2Bk4TpOPa6MX8xGFUcEqtG6wr0xUvLYtABOVxDbEHGY5BAXjR%2BhBM%2BruED30oytRDEM5mFAowkHRyxLKkIE7fmC4CuZb6EYh0NbRdiMU%2FB7b%2BxvSrzosyoIuYtP4XChRQwXThMHOAexTpl4ztJZ%2BXmUFoaE0KeBVRd3tVw8a5p8VN2RiO8Cpmaij5WqYSD80RctoFJ6Eu12k9sEQA9uULK09zYBS2uecGq4Pow1Pf3zMn6KTogeGEJ6S%2F8kopx%2FlT44fWvFUIuGCaVg%2FdmTZOCtVhtZe0O%2BhuWhue0E5dtEjpVAwZIdF%2FU4Oy%2F6M6ZhwrjFDvwWknZMEslUeHB8SCMAh2aT0tGyrMTDw2%2BewBjqyAYQBUC1CkfW3bSC%2FeuYSL42%2BO2%2Fujj5Q2%2FD5yh6GEmDxyrIccjz8s9UWcCNvnTRd7K65zX6z2w6FmyEqDINBXCArcisheKWWS52b56LtH36AP4kW6%2BRs9Fv65HZQoqNUBQK7uzsTqqHco7S%2BT8xgV2xUEL43%2FlrlSqrPzd0yrUn2HL0UV%2FMKNISFS2afNnHnEiI9Fp3zH98m7jMWPfMYXAgGEe9RIlNUOo6qoWHtWYkCAcc%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240413T033603Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYSYLRG4UA%2F20240413%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=260cf7ccabf8c0988a91222e8554dc4a65dd683f98531e0cad17af0e4e035fbc&hash=ad09717d47da7aee57df93e1868ee912c090466a8c8003f610598175132e67b4&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0010482522010484&tid=spdf-629c49e1-1e6b-42f7-8dba-6ba530196762&sid=38ea6a8e6ada2542a88bd0e0b59c35d4adb0gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=13155856525959560001&rr=873868ded883ce50&cc=us
+url_pdf: https://www.sciencedirect.com/science/article/pii/S0010482522010484
 # url_code: 'https://github.com/jinxixiang/FISTA-Net'
 # url_dataset: ''
 # url_poster: ''
@@ -73,13 +73,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}} -->
 
 <!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

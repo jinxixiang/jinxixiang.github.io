@@ -1,0 +1,18 @@
+{{- /* One entry in the full publications list. */ -}}
+{{- $url := partial "paper-url.html" . -}}
+<li class="pub">
+  {{- if .Params.featured }}
+  {{- with .Resources.GetMatch "featured.*" }}
+  {{- $img := .Resize "320x webp q80" }}
+  <a class="pub__thumb" href="{{ $url }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+    <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" loading="lazy" decoding="async" alt="">
+  </a>
+  {{- end }}
+  {{- end }}
+  <div class="pub__body">
+    <h3 class="pub__title"><a href="{{ $url }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
+    <p class="pub__authors">{{ partial "authors.html" . }}</p>
+    <p class="pub__venue">{{ .Params.publication | replaceRE `^In\s+` "" | markdownify }}</p>
+    {{ partial "paper-links.html" . }}
+  </div>
+</li>

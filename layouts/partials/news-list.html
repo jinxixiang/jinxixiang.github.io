@@ -1,0 +1,19 @@
+{{- /*
+  News timeline. Context: dict with `items` (from data/news.yaml) and optional
+  `prevYear`, so a continued list doesn't repeat the year label.
+*/ -}}
+{{- $prev := .prevYear | default "" -}}
+<ol class="news">
+  {{- range .items }}
+  {{- $d := time (printf "%v-01" .date) }}
+  {{- $y := $d.Format "2006" }}
+  <li class="news__item{{ if .highlight }} is-highlight{{ end }}">
+    <time class="news__date" datetime="{{ $d.Format "2006-01" }}">
+      <span class="news__year">{{ if ne $y $prev }}{{ $y }}{{ end }}</span>
+      <span class="news__month">{{ $d.Format "Jan" }}</span>
+    </time>
+    <div class="news__text">{{ .text | markdownify }}</div>
+  </li>
+  {{- $prev = $y }}
+  {{- end }}
+</ol>

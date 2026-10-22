@@ -1,0 +1,29 @@
+# Newest first. Leave `end` empty for a current position.
+- title: Postdoctoral Fellow
+  org: Stanford University
+  note: Medical AI for precision oncology, with Prof. Ruijiang Li
+  start: 2024
+  end:
+- title: Senior Researcher
+  org: Tencent AI Lab
+  note: Computational pathology, image/video coding, video generation
+  start: 2021
+  end: 2024
+- title: Research Intern
+  org: SenseTime
+  note: Medical image analysis
+  start: 2020
+  end: 2021
+- title: Visiting Ph.D. Student
+  org: University of Edinburgh
+  start: 2019
+  end: 2020
+- title: Ph.D. in Engineering
+  org: Tsinghua University
+  note: Electromagnetic tomography; medical imaging
+  start: 2016
+  end: 2021
+- title: B.E. in Engineering
+  org: Wuhan University
+  start: 2012
+  end: 2016

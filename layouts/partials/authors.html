@@ -1,0 +1,35 @@
+{{- /*
+  Author list for a publication page. `admin` renders as the site owner in bold;
+  `author_notes` (parallel to `authors`) become * (equal contribution) and
+  † (corresponding). Long lists are shortened to the first five authors, the
+  owner, and the last author.
+*/ -}}
+{{- $notes := .Params.author_notes | default slice -}}
+{{- $names := slice -}}
+{{- $ownerIdx := -1 -}}
+{{- range $i, $a := .Params.authors -}}
+  {{- $a = strings.TrimSpace $a -}}
+  {{- $mark := "" -}}
+  {{- if lt $i (len $notes) -}}
+    {{- with index $notes $i -}}
+      {{- if in . "Equal" }}{{ $mark = "*" }}{{ else if in . "Corresponding" }}{{ $mark = "†" }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $name := htmlEscape $a -}}
+  {{- if eq $a "admin" -}}
+    {{- $name = printf "<strong>%s</strong>" site.Data.profile.name -}}
+    {{- $ownerIdx = $i -}}
+  {{- end -}}
+  {{- with $mark }}{{ $name = printf "%s<sup>%s</sup>" $name . }}{{ end -}}
+  {{- $names = $names | append $name -}}
+{{- end -}}
+{{- $n := len $names -}}
+{{- $shown := $names -}}
+{{- if gt $n 10 -}}
+  {{- $shown = first 5 $names -}}
+  {{- if and (ge $ownerIdx 5) (lt $ownerIdx (sub $n 1)) -}}
+    {{- $shown = $shown | append "…" (index $names $ownerIdx) -}}
+  {{- end -}}
+  {{- $shown = $shown | append "…" (index $names (sub $n 1)) -}}
+{{- end -}}
+{{- delimit $shown ", " | safeHTML -}}

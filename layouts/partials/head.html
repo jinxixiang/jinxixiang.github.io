@@ -1,0 +1,38 @@
+{{- $profile := site.Data.profile -}}
+{{- $title := site.Title -}}
+{{- if .IsHome -}}
+  {{- $title = printf "%s · %s" $profile.name $profile.affiliation -}}
+{{- else -}}
+  {{- $title = printf "%s · %s" .Title site.Title -}}
+{{- end -}}
+{{- $description := .Description | default site.Params.description | plainify | strings.TrimSpace -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="author" content="{{ $profile.name }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+
+{{- /* Social previews */ -}}
+{{- $og := "" -}}
+{{- with resources.Get $profile.headshot -}}
+  {{- $og = (.Fill "600x600 webp q80").Permalink -}}
+{{- end }}
+<meta property="og:type" content="{{ if .IsHome }}profile{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{- with $og }}
+<meta property="og:image" content="{{ . }}">
+{{- end }}
+<meta name="twitter:card" content="summary">
+
+{{- /* Fonts */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+
+{{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">

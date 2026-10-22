@@ -1,0 +1,6 @@
+{{- /* Returns the primary URL for a publication: url_pdf, else its DOI. */ -}}
+{{- $url := .Params.url_pdf -}}
+{{- if and (not $url) .Params.doi -}}
+  {{- $url = printf "https://doi.org/%s" .Params.doi -}}
+{{- end -}}
+{{- return $url -}}

@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="wordmark" href="{{ "/" | relURL }}">{{ site.Data.profile.name }}</a>
+    <nav aria-label="Main">
+      <ul class="nav">
+        {{- $current := . }}
+        {{- range site.Menus.main }}
+        <li><a href="{{ .URL | relURL }}"{{ if and (eq .URL "/publication/") (eq $current.Section "publication") }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{- end }}
+      </ul>
+    </nav>
+  </div>
+</header>
