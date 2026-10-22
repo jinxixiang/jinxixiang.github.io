@@ -19,10 +19,19 @@
   package = "netlify-plugin-hugo-cache-resources"
 
 # Pages from the previous HugoBlox site.
+# Old per-paper pages: forced, because each folder still serves resized figures.
+# `:slug` matches one path segment, so the figure files themselves are unaffected.
 [[redirects]]
-  from = "/publication/*"
+  from = "/publication/:slug/"
   to = "/publication/"
   status = 301
+  force = true
+
+[[redirects]]
+  from = "/publication/:slug"
+  to = "/publication/"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/publication-type/*"
