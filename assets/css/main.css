@@ -282,17 +282,6 @@ sup { font-size: 0.7em; line-height: 0; }
   color: var(--text);
 }
 
-/* About: research overview figure (assets/svg/about-figure-*.svg). */
-.about-figure {
-  margin: 40px 0 0;
-  padding: 28px 28px 20px;
-  background: var(--figure-bg);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-}
-
-.about-figure img { width: 100%; height: auto; }
-
 /* Research themes
    ========================================================================== */
 
@@ -725,9 +714,6 @@ sup { font-size: 0.7em; line-height: 0; }
   .pub__thumb { width: 100%; max-width: 320px; }
 
   .site-footer__end { justify-items: start; }
-
-  .about-figure { padding: 20px 16px 12px; }
-  .about-figure img { max-width: 320px; margin: 0 auto; }
 }
 
 @media (max-width: 380px) {

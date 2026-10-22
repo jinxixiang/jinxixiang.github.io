@@ -22,16 +22,6 @@
 <section class="section wrap" id="about">
   <h2 class="section__title">About</h2>
   <div class="prose">{{ .Content }}</div>
-  {{- /* Research overview figure; regenerate with scripts/about_figure.py. */}}
-  {{- $wide := resources.Get "svg/about-figure-wide.svg" | minify | fingerprint }}
-  {{- $tall := resources.Get "svg/about-figure-tall.svg" | minify | fingerprint }}
-  <figure class="about-figure">
-    <picture>
-      <source srcset="{{ $tall.RelPermalink }}" media="(max-width: 640px)">
-      <img src="{{ $wide.RelPermalink }}" width="1044" height="366" loading="lazy" decoding="async"
-           alt="Pathology images and spatial omics maps of the same tissue feed a multimodal AI model that predicts diagnosis, prognosis, and therapy response.">
-    </picture>
-  </figure>
 </section>
 
 <section class="section wrap" id="research">
