@@ -680,6 +680,16 @@ sup { font-size: 0.7em; line-height: 0; }
 
   body { font-size: 16px; }
 
+  /* Name on top, menu on its own row underneath. */
+  .site-header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .nav { gap: 16px; }
   .nav a { font-size: 0.85rem; }
   .nav li:last-child { display: none; } /* Contact is the footer, one scroll away */
