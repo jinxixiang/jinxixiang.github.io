@@ -3,6 +3,8 @@ name_zh: 项进喜
 role: Postdoctoral Fellow
 affiliation: Stanford University School of Medicine
 affiliation_url: https://med.stanford.edu/
+# Shown next to the Stanford signature in the hero.
+department: School of Medicine
 headshot: media/headshot.png
 # One-sentence research vision shown under the name.
 vision: >-

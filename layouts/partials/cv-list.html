@@ -1,0 +1,24 @@
+{{- /* Experience/education cards. Context: dict with `heading` and `items`. */ -}}
+<div class="cv-group">
+  <h3 class="eyebrow cv-group__heading">{{ .heading }}</h3>
+  <ol class="cv">
+    {{- range .items }}
+    <li class="cv__item">
+      <span class="cv__logo">
+        {{- with resources.Get (printf "media/logos/%s.png" .logo) }}
+        {{- $img := .Resize "x112 webp q90" }}
+        <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" loading="lazy" alt="">
+        {{- end }}
+      </span>
+      <div class="cv__body">
+        <p class="cv__org">{{ .org }}</p>
+        <p class="cv__title">{{ .title }}</p>
+        {{- with .note }}
+        <p class="cv__note">{{ . }}</p>
+        {{- end }}
+      </div>
+      <span class="cv__dates">{{ .start }}–{{ .end | default "present" }}</span>
+    </li>
+    {{- end }}
+  </ol>
+</div>

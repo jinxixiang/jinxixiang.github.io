@@ -1,0 +1,10 @@
+{{- /*
+  Stanford University signature, switching to the white version in dark mode.
+  Context: dict with `class` (CSS class for sizing).
+*/ -}}
+{{- $color := (resources.Get "media/stanford/stanford-2color.png").Resize "x96 png" -}}
+{{- $white := (resources.Get "media/stanford/stanford-white.png").Resize "x96 png" -}}
+<picture class="{{ .class }}">
+  <source srcset="{{ $white.RelPermalink }}" media="(prefers-color-scheme: dark)">
+  <img src="{{ $color.RelPermalink }}" width="{{ $color.Width }}" height="{{ $color.Height }}" alt="Stanford University">
+</picture>

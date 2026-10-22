@@ -3,7 +3,10 @@
 
 <section class="hero wrap">
   <div class="hero__text">
-    <p class="eyebrow">{{ $p.role }} · <a href="{{ $p.affiliation_url }}">{{ $p.affiliation }}</a></p>
+    <a class="hero__affiliation" href="{{ $p.affiliation_url }}">
+      {{- partial "stanford-logo.html" (dict "class" "stanford-logo stanford-logo--hero") -}}
+    </a>
+    <p class="eyebrow">{{ $p.role }} · {{ $p.department }}</p>
     <h1 class="hero__name">{{ $p.name }}{{ with $p.name_zh }} <span class="hero__name-zh" lang="zh-Hans">{{ . }}</span>{{ end }}</h1>
     <p class="hero__vision">{{ $p.vision }}</p>
     {{ partial "social-links.html" $p.links }}
@@ -58,18 +61,9 @@
 
 <section class="section wrap" id="experience">
   <h2 class="section__title">Experience</h2>
-  <ol class="cv">
-    {{- range site.Data.experience }}
-    <li class="cv__item">
-      <span class="cv__dates">{{ .start }}–{{ .end | default "present" }}</span>
-      <div>
-        <p class="cv__title">{{ .title }} · <span class="cv__org">{{ .org }}</span></p>
-        {{- with .note }}
-        <p class="cv__note">{{ . }}</p>
-        {{- end }}
-      </div>
-    </li>
-    {{- end }}
-  </ol>
+  <div class="cv-groups">
+    {{ partial "cv-list.html" (dict "heading" "Positions" "items" site.Data.experience.positions) }}
+    {{ partial "cv-list.html" (dict "heading" "Education" "items" site.Data.experience.education) }}
+  </div>
 </section>
 {{ end }}

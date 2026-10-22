@@ -11,6 +11,7 @@
       </address>
     </div>
     <div class="site-footer__end">
+      {{ partial "stanford-logo.html" (dict "class" "stanford-logo stanford-logo--footer") }}
       {{ partial "social-links.html" $profile.links }}
       <p class="site-footer__copy">© {{ now.Year }} {{ $profile.name }}</p>
     </div>
