@@ -221,72 +221,13 @@ sup { font-size: 0.7em; line-height: 0; }
   color: var(--muted);
 }
 
-/* Photo sits on a decorative spatial-omics section (assets/svg/hero-art.svg). */
-.hero__visual {
-  position: relative;
-  display: grid;
-  place-items: center;
-}
-
-.hero__art {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 0;
-  width: 600px;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  /* fade the section out toward its edges */
-  -webkit-mask-image: radial-gradient(closest-side, #000 62%, transparent 100%);
-  mask-image: radial-gradient(closest-side, #000 62%, transparent 100%);
-}
-
-.hero__art svg { display: block; width: 100%; height: auto; }
-
 .hero__photo {
-  position: relative;
-  z-index: 1;
   width: 280px;
   height: 280px;
   object-fit: cover;
   border-radius: 50%;
   background: var(--surface);
-  box-shadow: 0 0 0 8px var(--bg);
 }
-
-/* Spatial domains, chosen to sit with the cardinal accent. */
-.hero-art {
-  --d1: #8c1515;
-  --d2: #175e54;
-  --d3: #b58a2e;
-  --d4: #4d5f8c;
-  --d5: #9d2a6b;
-}
-
-.hero-art .tissue { fill: var(--surface); stroke: var(--line); stroke-width: 1.5; }
-.hero-art .d1 { fill: var(--d1); }
-.hero-art .d2 { fill: var(--d2); }
-.hero-art .d3 { fill: var(--d3); }
-.hero-art .d4 { fill: var(--d4); }
-.hero-art .d5 { fill: var(--d5); }
-.hero-art .spots { opacity: 0.5; }
-.hero-art .edges line { stroke: var(--text); stroke-opacity: 0.4; stroke-width: 1; }
-.hero-art .nodes circle { fill: var(--bg); stroke: var(--text); stroke-width: 1.2; }
-.hero-art .attention circle { fill: none; stroke: var(--accent); stroke-width: 1.6; }
-.hero-art .tumor { fill: none; stroke: var(--text); stroke-opacity: 0.55; stroke-width: 1.4; stroke-dasharray: 4 4; }
-
-@media (prefers-color-scheme: dark) {
-  .hero-art {
-    --d1: #e28a85;
-    --d2: #5fb3a5;
-    --d3: #e0b75e;
-    --d4: #8fa3d6;
-    --d5: #d77fb0;
-  }
-}
-
-/* The art extends past the content column; clip it without a scrollbar. */
-main { overflow-x: clip; }
 
 .social {
   display: flex;
@@ -340,6 +281,17 @@ main { overflow-x: clip; }
   font-size: 1.06rem;
   color: var(--text);
 }
+
+/* About: research overview figure (assets/svg/about-figure-*.svg). */
+.about-figure {
+  margin: 40px 0 0;
+  padding: 28px 28px 20px;
+  background: var(--figure-bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.about-figure img { width: 100%; height: auto; }
 
 /* Research themes
    ========================================================================== */
@@ -723,19 +675,12 @@ main { overflow-x: clip; }
     padding-bottom: 56px;
   }
 
-  .hero__visual {
-    order: -1;
-    justify-self: start;
-    margin: 24px 0 20px;
-  }
-
-  .hero__art { width: 260px; }
-
   .hero__photo {
+    order: -1;
     width: 132px;
     height: 132px;
-    box-shadow: 0 0 0 5px var(--bg);
   }
+
 
   .hero__vision { font-size: 1.15rem; }
 
@@ -780,6 +725,9 @@ main { overflow-x: clip; }
   .pub__thumb { width: 100%; max-width: 320px; }
 
   .site-footer__end { justify-items: start; }
+
+  .about-figure { padding: 20px 16px 12px; }
+  .about-figure img { max-width: 320px; margin: 0 auto; }
 }
 
 @media (max-width: 380px) {
