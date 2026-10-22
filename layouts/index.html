@@ -13,10 +13,16 @@
     {{- end }}
     {{ partial "social-links.html" $p.links }}
   </div>
-  {{- with resources.Get $p.headshot }}
-  {{- $img := .Fill "560x560 webp q85" }}
-  <img class="hero__photo" src="{{ $img.RelPermalink }}" width="280" height="280" fetchpriority="high" alt="Portrait of {{ $p.name }}">
-  {{- end }}
+  <div class="hero__visual">
+    {{- /* Decorative spatial-omics section; regenerate with scripts/hero_art.py. */}}
+    {{- with resources.Get "svg/hero-art.svg" }}
+    <div class="hero__art" aria-hidden="true">{{ .Content | safeHTML }}</div>
+    {{- end }}
+    {{- with resources.Get $p.headshot }}
+    {{- $img := .Fill "560x560 webp q85" }}
+    <img class="hero__photo" src="{{ $img.RelPermalink }}" width="280" height="280" fetchpriority="high" alt="Portrait of {{ $p.name }}">
+    {{- end }}
+  </div>
 </section>
 
 <section class="section wrap" id="about">
