@@ -9,7 +9,8 @@ headshot: media/headshot.png
 # One-sentence research vision shown under the name.
 vision: >-
   I build AI that reads the full complexity of a tumor — its molecular programs,
-  spatial architecture, and clinical course — from data collected in routine care.
+  spatial architecture, and clinical course — from data collected in routine care,
+  so that precision oncology can reach every patient.
 email: xiangjx@stanford.edu
 address:
   - Stanford University School of Medicine
