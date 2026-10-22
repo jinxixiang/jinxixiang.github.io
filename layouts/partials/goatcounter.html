@@ -1,0 +1,20 @@
+{{- /* GoatCounter page counting plus the site-wide visit total in the footer. */ -}}
+{{- with site.Params.goatcounter }}
+<script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script>
+  // Fill the footer total; stay hidden if GoatCounter is unreachable or the
+  // public counter setting is off.
+  (function () {
+    var el = document.querySelector("[data-goatcounter-total]");
+    if (!el || !window.fetch) return;
+    fetch(el.dataset.goatcounterTotal)
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || !d.count) return;
+        el.textContent = " · " + d.count + " visits";
+        el.hidden = false;
+      })
+      .catch(function () {});
+  })();
+</script>
+{{- end }}

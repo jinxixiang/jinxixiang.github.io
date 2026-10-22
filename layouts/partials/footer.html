@@ -13,7 +13,10 @@
     <div class="site-footer__end">
       {{ partial "stanford-logo.html" (dict "class" "stanford-logo stanford-logo--footer") }}
       {{ partial "social-links.html" $profile.links }}
-      <p class="site-footer__copy">© {{ now.Year }} {{ $profile.name }}</p>
+      <p class="site-footer__copy">
+        © {{ now.Year }} {{ $profile.name }}
+        {{- with site.Params.goatcounter }}<span class="visits" data-goatcounter-total="https://{{ . }}.goatcounter.com/counter/TOTAL.json" hidden></span>{{ end }}
+      </p>
     </div>
   </div>
 </footer>

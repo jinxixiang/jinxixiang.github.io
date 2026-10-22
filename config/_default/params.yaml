@@ -5,3 +5,8 @@ description: >-
   Jinxi Xiang is a postdoctoral fellow at Stanford University School of Medicine
   building multimodal foundation models for precision oncology.
 
+# GoatCounter site code (the "xyz" in xyz.goatcounter.com). Leave empty to turn
+# off counting and the visit count in the footer. The footer count also needs
+# "Allow adding visitor counts on your website" enabled in GoatCounter settings.
+goatcounter: ''
+
