@@ -439,21 +439,6 @@ sup { font-size: 0.7em; line-height: 0; }
 
 .news__item.is-highlight .news__text strong { color: var(--accent); }
 
-.news-more { max-width: 52em; }
-
-.news-more summary {
-  display: inline-block;
-  margin-top: 20px;
-  font-weight: 500;
-  color: var(--accent);
-  cursor: pointer;
-  list-style: none;
-}
-
-.news-more summary::-webkit-details-marker { display: none; }
-.news-more summary::after { content: " ↓"; }
-.news-more[open] summary { display: none; }
-
 /* Experience
    ========================================================================== */
 

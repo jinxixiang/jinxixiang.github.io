@@ -8,6 +8,14 @@
   text: >-
     [*A unified vision-language model for precision oncology and biomarker prediction in neuroblastoma*](https://www.nature.com/articles/s41467-026-74865-5)
     (NEVA) published in **Nature Communications**.
+- date: 2026-06
+  text: >-
+    Invited talk at **MD Anderson Cancer Center**: *Multimodal Foundation Models for Precision Oncology*.
+    Hosted by Dr. Han Liang, Department of Bioinformatics and Computational Biology.
+- date: 2026-05
+  text: >-
+    Invited talk at **Houston Methodist**: *Integrating Pathology and Spatial Omics for Precision Immunotherapy*.
+    Hosted by Dr. Keith Chen, Department of Urology.
 - date: 2026-05
   text: Recognized as a Gold Reviewer for [*ICML 2026*](https://icml.cc/).
 - date: 2026-04
