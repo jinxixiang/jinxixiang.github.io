@@ -6,11 +6,8 @@ affiliation_url: https://med.stanford.edu/
 # Shown next to the Stanford signature in the hero.
 department: School of Medicine
 headshot: media/headshot.png
-# One-sentence research vision shown under the name.
-vision: >-
-  I build AI that reads the full complexity of a tumor — its molecular programs,
-  spatial architecture, and clinical course — from data collected in routine care,
-  so that precision oncology can reach every patient.
+# Optional one-sentence research vision shown under the name in the hero.
+# vision: ...
 email: xiangjx@stanford.edu
 address:
   - Stanford University School of Medicine

@@ -8,7 +8,9 @@
     </a>
     <p class="eyebrow">{{ $p.role }} · {{ $p.department }}</p>
     <h1 class="hero__name">{{ $p.name }}{{ with $p.name_zh }} <span class="hero__name-zh" lang="zh-Hans">{{ . }}</span>{{ end }}</h1>
-    <p class="hero__vision">{{ $p.vision }}</p>
+    {{- with $p.vision }}
+    <p class="hero__vision">{{ . }}</p>
+    {{- end }}
     {{ partial "social-links.html" $p.links }}
   </div>
   {{- with resources.Get $p.headshot }}
