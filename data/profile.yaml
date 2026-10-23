@@ -8,12 +8,8 @@ affiliation_url: https://med.stanford.edu/
 # Shown next to the Stanford signature in the hero.
 department: School of Medicine
 headshot: media/headshot.png
-# Research keywords shown as tags under the name.
-interests:
-  - Computational Pathology
-  - Multimodal Foundation Models
-  - Spatial Omics
-  - Precision Oncology
+# Optional research keywords shown as tags under the name, e.g.
+# interests: [Computational Pathology, Spatial Omics]
 # Optional one-sentence research vision shown under the name in the hero.
 # vision: ...
 email: xiangjx@stanford.edu
