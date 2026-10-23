@@ -15,7 +15,7 @@
       {{ partial "social-links.html" $profile.links }}
       <p class="site-footer__copy">
         © {{ now.Year }} {{ $profile.name }}
-        {{- with site.Params.goatcounter }}<span class="visits" data-goatcounter-total="https://{{ . }}.goatcounter.com/counter/TOTAL.json" hidden></span>{{ end }}
+        {{- if site.Params.visitor_counter }}<span id="busuanzi_container_site_uv" style="display:none"> · <span id="busuanzi_value_site_uv"></span> visitors</span>{{ end }}
       </p>
     </div>
   </div>

@@ -1,0 +1,21 @@
+{{- /*
+  Site-wide unique visitor count from Busuanzi (busuanzi.ibruce.info), a free,
+  account-free counter. The count stays hidden until the script fills it, so
+  nothing shows if the service is slow or down.
+*/ -}}
+{{- if site.Params.visitor_counter }}
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script>
+  // Add thousands separators once Busuanzi writes the raw number.
+  (function () {
+    var el = document.getElementById("busuanzi_value_site_uv");
+    if (!el || !window.MutationObserver) return;
+    new MutationObserver(function (_, obs) {
+      var n = parseInt(el.textContent.replace(/\D/g, ""), 10);
+      if (isNaN(n)) return;
+      obs.disconnect();
+      el.textContent = n.toLocaleString("en-US");
+    }).observe(el, { childList: true, characterData: true, subtree: true });
+  })();
+</script>
+{{- end }}
