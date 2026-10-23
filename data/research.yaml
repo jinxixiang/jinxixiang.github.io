@@ -8,12 +8,12 @@
     response prediction.
   papers: [journal-musk, journal-neva]
 
-- title: Reading molecular and spatial biology from routine histology
+- title: Virtual tissue and the tumor microenvironment
   blurb: >-
-    Spatial omics reveals how tumors are organized, but it is costly and rarely
-    available in the clinic. I build models that infer spatial proteomics and
-    transcriptomics directly from standard H&E slides, making molecular-level tumor
-    characterization accessible wherever a biopsy is taken.
+    Histology, spatial transcriptomics, and proteomics are different views of the
+    same tissue. I build models that learn them jointly, a virtual tissue that can
+    translate between modalities, generate missing ones from routine H&E, and map
+    the cellular and molecular architecture of the tumor microenvironment at scale.
   papers: [journal-hex, preprint-storm, preprint-mupd]
 
 - title: Generalizable learning from whole-slide images

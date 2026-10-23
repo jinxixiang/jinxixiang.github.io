@@ -14,7 +14,7 @@ actors:                                       # left, right, bottom (on the ring
   - {label: Foundation Model, icon: chip}
 
 boxes:                                        # top-left, bottom-left, top-right, bottom-right
-  - [Virtual Spatial Omics, from H&E]
+  - [Virtual Tissue]
   - [Multimodal, Foundation Models]
   - [Biomarker, Discovery]
   - [Clinical Decision, Support]
