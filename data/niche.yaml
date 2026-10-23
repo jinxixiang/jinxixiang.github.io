@@ -1,0 +1,20 @@
+# Research-niche diagram in the About section (layouts/partials/niche-figure.html).
+# Positions are fixed by the diagram; only the wording lives here.
+
+center: [Precision, Oncology]                 # label on the triple overlap
+
+circles:                                      # top, bottom-left, bottom-right
+  - [AI]
+  - [Pathology]
+  - [Spatial, Omics]
+
+actors:                                       # left, right, bottom (on the ring)
+  - {label: Patient Tissue, icon: microscope}
+  - {label: Clinician, icon: clinician}
+  - {label: Foundation Model, icon: chip}
+
+boxes:                                        # top-left, bottom-left, top-right, bottom-right
+  - [Virtual Spatial Omics, from H&E]
+  - [Multimodal, Foundation Models]
+  - [Biomarker, Discovery]
+  - [Clinical Decision, Support]

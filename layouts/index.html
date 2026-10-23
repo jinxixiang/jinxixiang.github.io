@@ -28,7 +28,10 @@
 
 <section class="section wrap" id="about">
   <h2 class="section__title">About</h2>
-  <div class="prose">{{ .Content }}</div>
+  <div class="about">
+    <div class="prose">{{ .Content }}</div>
+    {{ partial "niche-figure.html" . }}
+  </div>
 </section>
 
 <section class="section wrap" id="research">

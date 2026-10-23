@@ -1,0 +1,65 @@
+{{- /*
+  Research-niche diagram: three overlapping fields inside a ring of actors, with
+  research directions in the corners. Wording comes from data/niche.yaml; the
+  geometry below is fixed (viewBox 600x490, ring centered at 300,250, r=172).
+*/ -}}
+{{- $d := site.Data.niche -}}
+{{- /* Line icons on a 24-unit grid (Lucide, ISC license). */ -}}
+{{- $icons := dict
+  "microscope" `<path d="M6 18h8M3 22h18M14 22a7 7 0 1 0 0-14h-1M9 14h2M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2ZM12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/>`
+  "clinician" `<path d="M11 2v2M5 2v2M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/>`
+  "chip" `<rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/>`
+-}}
+{{- $circles := slice (dict "cx" 300 "cy" 205 "class" "venn-ai" "lx" 300 "ly" 170)
+                      (dict "cx" 262 "cy" 273 "class" "venn-path" "lx" 228 "ly" 302)
+                      (dict "cx" 338 "cy" 273 "class" "venn-omics" "lx" 372 "ly" 294) -}}
+{{- $actors := slice (dict "x" 128 "y" 250 "ly" 211) (dict "x" 472 "y" 250 "ly" 211) (dict "x" 300 "y" 422 "ly" 474) -}}
+{{- $boxes := slice (dict "x" 12 "y" 40) (dict "x" 12 "y" 404) (dict "x" 420 "y" 40) (dict "x" 420 "y" 404) -}}
+<figure class="niche">
+  <svg viewBox="0 0 600 490" role="img" aria-labelledby="niche-title">
+    <title id="niche-title">Research at the intersection of AI, pathology, and spatial omics for precision oncology, linking patient tissue, foundation models, and clinicians.</title>
+
+    {{- /* Ring: three arcs with gaps where the actors sit. */}}
+    <g class="niche__ring">
+      <path d="M145.4,174.7 A172,172 0 0 1 454.6,174.7"/>
+      <path d="M454.6,325.3 A172,172 0 0 1 375.4,404.6"/>
+      <path d="M224.6,404.6 A172,172 0 0 1 145.4,325.3"/>
+    </g>
+
+    <g class="niche__venn">
+      {{- range $i, $c := $circles }}
+      <circle class="{{ $c.class }}" cx="{{ $c.cx }}" cy="{{ $c.cy }}" r="74"/>
+      {{- end }}
+    </g>
+    {{- range $i, $c := $circles }}
+    {{- $lines := index $d.circles $i }}
+    <text class="niche__field" x="{{ $c.lx }}" y="{{ sub $c.ly (mul 9 (sub (len $lines) 1)) }}">
+      {{- range $j, $l := $lines }}<tspan x="{{ $c.lx }}" dy="{{ if $j }}18{{ else }}0{{ end }}">{{ $l }}</tspan>{{ end -}}
+    </text>
+    {{- end }}
+
+    <g class="niche__center">
+      <rect x="261" y="234" width="78" height="36" rx="18"/>
+      <text x="300" y="249">{{ range $j, $l := $d.center }}<tspan x="300" dy="{{ if $j }}13{{ else }}0{{ end }}">{{ $l }}</tspan>{{ end }}</text>
+    </g>
+
+    {{- range $i, $a := $actors }}
+    {{- $item := index $d.actors $i }}
+    <g class="niche__actor">
+      <circle cx="{{ $a.x }}" cy="{{ $a.y }}" r="26"/>
+      <g class="niche__icon" transform="translate({{ sub $a.x 13.2 }} {{ sub $a.y 13.2 }}) scale(1.1)">{{ index $icons $item.icon | safeHTML }}</g>
+      <text x="{{ $a.x }}" y="{{ $a.ly }}">{{ $item.label }}</text>
+    </g>
+    {{- end }}
+
+    {{- range $i, $b := $boxes }}
+    {{- $lines := index $d.boxes $i }}
+    <g class="niche__box">
+      <rect x="{{ $b.x }}" y="{{ $b.y }}" width="168" height="56" rx="10"/>
+      <text x="{{ add $b.x 84 }}" y="{{ sub (add $b.y 33) (mul 9 (sub (len $lines) 1)) }}">
+        {{- range $j, $l := $lines }}<tspan x="{{ add $b.x 84 }}" dy="{{ if $j }}18{{ else }}0{{ end }}">{{ $l }}</tspan>{{ end -}}
+      </text>
+    </g>
+    {{- end }}
+  </svg>
+</figure>

@@ -302,6 +302,70 @@ sup { font-size: 0.7em; line-height: 0; }
   color: var(--text);
 }
 
+/* About: text beside the research-niche diagram (layouts/partials/niche-figure.html). */
+.about {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 500px;
+  align-items: center;
+  gap: 48px;
+}
+
+.niche {
+  --venn-ai: #8fb8de;
+  --venn-path: #f2a7bf;
+  --venn-omics: #8ed1bf;
+  --niche-box: #eeece8;
+  margin: 0;
+}
+
+.niche svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+.niche__ring path { fill: none; stroke: var(--text); stroke-width: 2.2; stroke-linecap: round; }
+
+.niche__venn circle { fill-opacity: 0.7; mix-blend-mode: multiply; }
+.niche__venn .venn-ai { fill: var(--venn-ai); }
+.niche__venn .venn-path { fill: var(--venn-path); }
+.niche__venn .venn-omics { fill: var(--venn-omics); }
+
+.niche text {
+  font-family: var(--sans);
+  fill: var(--text);
+  text-anchor: middle;
+}
+
+.niche__field { font-size: 16px; font-weight: 600; }
+
+.niche__center rect { fill: var(--bg); stroke: var(--line); }
+.niche__center text {
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  fill: var(--accent);
+}
+
+.niche__actor circle { fill: var(--bg); stroke: var(--text); stroke-width: 2; }
+.niche__icon { fill: none; stroke: var(--text); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.niche__actor text { font-size: 15.5px; font-weight: 600; }
+
+.niche__box rect { fill: var(--niche-box); }
+.niche__box text { font-size: 15px; fill: var(--text); }
+
+@media (prefers-color-scheme: dark) {
+  .niche {
+    --venn-ai: #3f6f9c;
+    --venn-path: #a24f6e;
+    --venn-omics: #2f8572;
+    --niche-box: #242422;
+  }
+
+  .niche__venn circle { mix-blend-mode: screen; fill-opacity: 0.75; }
+}
+
+@media (max-width: 980px) {
+  .about { grid-template-columns: 1fr; gap: 32px; }
+  .niche { justify-self: center; width: 100%; max-width: 520px; }
+}
+
 /* Research themes
    ========================================================================== */
 
