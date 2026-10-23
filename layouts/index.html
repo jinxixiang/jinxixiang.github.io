@@ -8,6 +8,13 @@
     </a>
     <p class="eyebrow">{{ $p.role }} · {{ $p.department }}</p>
     <h1 class="hero__name">{{ $p.name }}{{ with $p.name_zh }} <span class="hero__name-zh" lang="zh-Hans">{{ . }}</span>{{ end }}</h1>
+    {{- with $p.interests }}
+    <ul class="tags" aria-label="Research interests">
+      {{- range . }}
+      <li>{{ . }}</li>
+      {{- end }}
+    </ul>
+    {{- end }}
     {{- with $p.vision }}
     <p class="hero__vision">{{ . }}</p>
     {{- end }}
