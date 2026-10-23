@@ -7,7 +7,7 @@
       {{- partial "stanford-logo.html" (dict "class" "stanford-logo stanford-logo--hero") -}}
     </a>
     <p class="eyebrow">{{ $p.role }} · {{ $p.department }}</p>
-    <h1 class="hero__name">{{ $p.name }}{{ with $p.name_zh }} <span class="hero__name-zh" lang="zh-Hans">{{ . }}</span>{{ end }}</h1>
+    <h1 class="hero__name">{{ $p.display_name | default $p.name }}{{ with $p.name_zh }} <span class="hero__name-zh" lang="zh-Hans">{{ . }}</span>{{ end }}</h1>
     {{- with $p.interests }}
     <ul class="tags" aria-label="Research interests">
       {{- range . }}
