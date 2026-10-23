@@ -1,0 +1,25 @@
+# Research themes on the homepage, in display order.
+# `papers` lists folder names under content/publication/.
+- title: Vision–language foundation models for oncology
+  blurb: >-
+    Clinical decisions draw on images and text together. I develop foundation models
+    that learn jointly from pathology images and clinical language at scale, then
+    transfer with little or no labeled data to diagnosis, prognosis, and treatment
+    response prediction.
+  papers: [journal-musk, journal-neva]
+
+- title: Reading molecular and spatial biology from routine histology
+  blurb: >-
+    Spatial omics reveals how tumors are organized, but it is costly and rarely
+    available in the clinic. I build models that infer spatial proteomics and
+    transcriptomics directly from standard H&E slides, making molecular-level tumor
+    characterization accessible wherever a biopsy is taken.
+  papers: [journal-hex, preprint-storm, preprint-mupd]
+
+- title: Generalizable learning from whole-slide images
+  blurb: >-
+    Gigapixel slides with only slide-level labels demand learning methods that are
+    data-efficient and robust across hospitals. I design multiple instance learning
+    frameworks that turn foundation-model features into reliable, uncertainty-aware
+    clinical predictions.
+  papers: [preprint-nnmil, conference-ilra, journal-prostate]

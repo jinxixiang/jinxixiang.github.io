@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="page-head wrap">
+  <h1 class="page-head__title">{{ .Title }}</h1>
+  <p class="page-head__lede">
+    <sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author
+    {{- range where site.Data.profile.links "icon" "scholar" }}
+    · <a href="{{ .url }}" target="_blank" rel="noopener">Full list on Google Scholar</a>
+    {{- end }}
+  </p>
+</section>
+
+<div class="wrap">
+  {{- range .Pages.GroupByDate "2006" }}
+  <section class="pub-year">
+    <h2 class="pub-year__label">{{ .Key }}</h2>
+    <ol class="pubs">
+      {{- range .Pages }}
+      {{ partial "pub-entry.html" . }}
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+</div>
+{{ end }}

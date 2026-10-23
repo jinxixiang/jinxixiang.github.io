@@ -1,0 +1,28 @@
+name: Jinxi Xiang
+name_zh: 项进喜
+role: Postdoctoral Fellow
+affiliation: Stanford University School of Medicine
+affiliation_url: https://med.stanford.edu/
+# Shown next to the Stanford signature in the hero.
+department: School of Medicine
+headshot: media/headshot.png
+# Optional one-sentence research vision shown under the name in the hero.
+# vision: ...
+email: xiangjx@stanford.edu
+address:
+  - Stanford University School of Medicine
+  - 450 Serra Mall
+  - Stanford, CA 94305
+links:
+  - name: Email
+    icon: email
+    url: mailto:xiangjx@stanford.edu
+  - name: Google Scholar
+    icon: scholar
+    url: https://scholar.google.com/citations?user=Zn-0LioAAAAJ&hl=en
+  - name: GitHub
+    icon: github
+    url: https://github.com/jinxixiang
+  - name: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/jinxi-xiang-9082461a6/

@@ -2,7 +2,7 @@
 title: "A Vision–language Foundation Model for Precision Oncology"
 authors:
 - admin
-- Xiyue wang
+- Xiyue Wang
 - Xiaoming Zhang  
 - Yinghua Xi  
 - Feyisope Eweje  
@@ -42,7 +42,7 @@ author_notes:
 
 
 
-date: "2099-01-01T00:00:00Z"
+date: "2025-01-08T00:00:00Z"
 doi: "10.1038/s41586-024-08378-w"
 
 # Schedule page publish date (NOT publication's date).
@@ -107,13 +107,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}} -->
 
 <!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

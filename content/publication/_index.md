@@ -1,16 +1,12 @@
 ---
 title: Publications
-cms_exclude: true
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 4
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+description: All publications by Jinxi Xiang, grouped by year.
+# Papers link out to the journal; no per-paper pages are generated.
+cascade:
+  - build:
+      render: never
+      list: local
+      publishResources: false
+    target:
+      kind: page
 ---

@@ -1,0 +1,17 @@
+{{- /* Link row for a publication page. */ -}}
+{{- $p := .Params -}}
+{{- $links := slice
+  (dict "label" "Paper" "url" (partial "paper-url.html" .))
+  (dict "label" "Code" "url" $p.url_code)
+  (dict "label" "Demo" "url" $p.url_project)
+  (dict "label" "Model" "url" $p.url_source)
+  (dict "label" "Video" "url" $p.url_video)
+  (dict "label" "Poster" "url" $p.url_poster)
+-}}
+<ul class="paper-links">
+  {{- range $links }}
+  {{- if .url }}
+  <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a></li>
+  {{- end }}
+  {{- end }}
+</ul>

@@ -1,0 +1,11 @@
+{{- /* Icon links. Context: list of {name, icon, url} from data/profile.yaml. */ -}}
+<ul class="social">
+  {{- range . }}
+  <li>
+    <a href="{{ .url }}"{{ if not (hasPrefix .url "mailto:") }} target="_blank" rel="noopener"{{ end }}>
+      {{- partial "icon.html" .icon -}}
+      <span>{{ .name }}</span>
+    </a>
+  </li>
+  {{- end }}
+</ul>

@@ -1,0 +1,16 @@
+{{- /* Research-theme card for a publication page: figure, venue, title, links. */ -}}
+{{- $url := partial "paper-url.html" . -}}
+{{- $venue := .Params.publication_short | default .Params.publication | replaceRE `^In\s+` "" -}}
+<article class="paper-card">
+  {{- with .Resources.GetMatch "featured.*" }}
+  {{- $img := .Resize "720x webp q80" }}
+  <a class="paper-card__media" href="{{ $url }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+    <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" loading="lazy" decoding="async" alt="">
+  </a>
+  {{- end }}
+  <div class="paper-card__body">
+    <p class="paper-meta"><span class="venue">{{ $venue | markdownify }}</span><span class="paper-meta__year">{{ .Date.Year }}</span></p>
+    <h4 class="paper-card__title"><a href="{{ $url }}" target="_blank" rel="noopener">{{ .Title }}</a></h4>
+    {{ partial "paper-links.html" . }}
+  </div>
+</article>

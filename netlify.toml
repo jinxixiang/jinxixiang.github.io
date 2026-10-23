@@ -3,8 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.123.3"
-  HUGO_ENABLEGITINFO = "true"
+  HUGO_VERSION = "0.152.2"
 
 [context.production.environment]
   HUGO_ENV = "production"
@@ -15,7 +14,51 @@
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
+# Cache processed images between builds.
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
+
+# Pages from the previous HugoBlox site.
+# Old per-paper pages: forced, because each folder still serves resized figures.
+# `:slug` matches one path segment, so the figure files themselves are unaffected.
+[[redirects]]
+  from = "/publication/:slug/"
+  to = "/publication/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/publication/:slug"
+  to = "/publication/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/publication-type/*"
+  to = "/publication/"
+  status = 301
+
+[[redirects]]
+  from = "/post/*"
+  to = "/#news"
+  status = 301
+
+[[redirects]]
+  from = "/talk/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/project/*"
+  to = "/#research"
+  status = 301
+
+[[redirects]]
+  from = "/slides/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/author/*"
+  to = "/"
+  status = 301

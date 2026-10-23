@@ -1,0 +1,22 @@
+{{- $profile := site.Data.profile -}}
+<footer class="site-footer" id="contact">
+  <div class="wrap site-footer__inner">
+    <div>
+      <h2 class="eyebrow">Contact</h2>
+      <p class="site-footer__email"><a href="mailto:{{ $profile.email }}">{{ $profile.email }}</a></p>
+      <address>
+        {{- range $profile.address }}
+        {{ . }}<br>
+        {{- end }}
+      </address>
+    </div>
+    <div class="site-footer__end">
+      {{ partial "stanford-logo.html" (dict "class" "stanford-logo stanford-logo--footer") }}
+      {{ partial "social-links.html" $profile.links }}
+      <p class="site-footer__copy">
+        © {{ now.Year }} {{ $profile.name }}
+        {{- with site.Params.goatcounter }}<span class="visits" data-goatcounter-total="https://{{ . }}.goatcounter.com/counter/TOTAL.json" hidden></span>{{ end }}
+      </p>
+    </div>
+  </div>
+</footer>

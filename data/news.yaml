@@ -1,0 +1,56 @@
+# Newest first. `text` is Markdown; `highlight: true` marks a major publication.
+- date: 2026-10
+  text: Invited to serve as an Area Chair for [*ICML 2027*](https://icml.cc/).
+- date: 2026-08
+  highlight: true
+  text: >-
+    [*nnMIL: A generalizable multiple instance learning framework for computational pathology*](https://www.nature.com/articles/s41551-026-01767-8)
+    published in **Nature Biomedical Engineering**.
+- date: 2026-08
+  text: Invited to serve as an Area Chair for [*ICLR 2027*](https://iclr.cc/).
+- date: 2026-07
+  highlight: true
+  text: >-
+    [*A unified vision-language model for precision oncology and biomarker prediction in neuroblastoma*](https://www.nature.com/articles/s41467-026-74865-5)
+    (NEVA) published in **Nature Communications**.
+- date: 2026-06
+  text: >-
+    Invited talk at **MD Anderson Cancer Center**: *Multimodal Foundation Models for Precision Oncology*.
+    Hosted by Dr. Han Liang, Department of Bioinformatics and Computational Biology.
+- date: 2026-05
+  text: >-
+    Invited talk at **Houston Methodist**: *Integrating Pathology and Spatial Omics for Precision Immunotherapy*.
+    Hosted by Dr. Keith Chen, Department of Urology.
+- date: 2026-05
+  text: Recognized as a Gold Reviewer for [*ICML 2026*](https://icml.cc/).
+- date: 2026-04
+  text: >-
+    Two new preprints on multimodal histopathology AI:
+    [*STORM*](https://storm-web-demo.vercel.app/) and [*MUPAD*](https://mupad-demo.vercel.app/).
+- date: 2026-01
+  highlight: true
+  text: >-
+    [*AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer*](https://www.nature.com/articles/s41591-025-04060-4)
+    (HEX) published in **Nature Medicine**.
+- date: 2025-12
+  text: Received the IEEE *Transactions on Medical Imaging* Reviewer Certificate of Excellence 2025.
+- date: 2025-08
+  text: Invited to serve as an Area Chair for [*ICLR 2026*](https://iclr.cc/).
+- date: 2025-02
+  text: >-
+    [*Nature Cancer*](https://www.nature.com/articles/s43018-025-00923-4) highlighted foundation
+    models such as MUSK as substantial progress in digital pathology.
+- date: 2025-01
+  text: >-
+    MUSK featured by [Stanford Medicine](https://med.stanford.edu/news/all-news/2025/01/ai-cancer-prognosis.html),
+    [Stanford Report](https://news.stanford.edu/stories/2025/01/ai-cancer-prognosis),
+    [Stanford HAI](https://hai.stanford.edu/news/stanfords-multimodal-ai-model-advances-personalized-cancer-care),
+    [NVIDIA](https://developer.nvidia.com/blog/ai-foundation-model-enhances-cancer-diagnosis-and-tailors-treatment/),
+    [The Stanford Daily](https://stanforddaily.com/2025/02/04/the-musk-model/),
+    [BioArt](https://mp.weixin.qq.com/s/ohcwqXaQKPwU_Gzz6Hz0Qg), and
+    [AdvanceBC](https://mp.weixin.qq.com/s/SclhITWV-aFJertrFqlB2w).
+- date: 2025-01
+  highlight: true
+  text: >-
+    [*A vision–language foundation model for precision oncology*](https://www.nature.com/articles/s41586-024-08378-w)
+    (MUSK) published in **Nature**.

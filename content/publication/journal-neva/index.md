@@ -60,8 +60,7 @@ author_notes:
 - "Corresponding author"
 - "Corresponding author"
 - "Corresponding author"
-# Date set before other featured papers so it sorts last in Featured Publications.
-date: "2025-11-01T00:00:00Z"
+date: "2026-07-09T00:00:00Z"
 doi: "10.1038/s41467-026-74865-5"
 publishDate: "2026-07-09T00:00:00Z"
 publication_types: ["article-journal"]

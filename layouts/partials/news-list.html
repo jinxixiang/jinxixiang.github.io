@@ -1,0 +1,16 @@
+{{- /* News timeline. Context: list of items from data/news.yaml, newest first. */ -}}
+{{- $prev := "" -}}
+<ol class="news">
+  {{- range . }}
+  {{- $d := time (printf "%v-01" .date) }}
+  {{- $y := $d.Format "2006" }}
+  <li class="news__item{{ if .highlight }} is-highlight{{ end }}">
+    <time class="news__date" datetime="{{ $d.Format "2006-01" }}">
+      <span class="news__year">{{ if ne $y $prev }}{{ $y }}{{ end }}</span>
+      <span class="news__month">{{ $d.Format "Jan" }}</span>
+    </time>
+    <div class="news__text">{{ .text | markdownify }}</div>
+  </li>
+  {{- $prev = $y }}
+  {{- end }}
+</ol>
