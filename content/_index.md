@@ -6,4 +6,7 @@ title: ''
 
 Jinxi "Derek" Xiang  is a Postdoctoral Fellow at Stanford University School of Medicine, working with [Prof. Ruijiang Li](https://med.stanford.edu/lilab.html) on AI for precision oncology. He earned his Ph.D. from Tsinghua University in 2021 and was previously a Senior Researcher at Tencent AI Lab, where he led computational pathology projects deployed in clinical settings.
 
-His work builds multimodal foundation models that integrate histopathology, spatial transcriptomics, proteomics, and clinical text, so that tumors can be characterized comprehensively. The goal is a new computational layer for oncology: one that changes how tumors are understood, classified, and treated across diverse patient populations.
+He develops multimodal foundation models that integrate histopathology, spatial transcriptomics, proteomics, and clinical text to reveal
+tumor biology and predict treatment outcomes. His research combines representation learning and generative modeling to learn from
+multiscale and multimodal data. His goal is to translate these advances into tools for understanding tumor heterogeneity, refining cancer
+classification, and guiding treatment across diverse patient populations.
