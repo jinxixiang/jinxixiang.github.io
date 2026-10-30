@@ -1,5 +1,10 @@
 # Newest first. `text` is Markdown; `highlight: true` marks a major publication.
 - date: 2026-10
+  highlight: true
+  text: >-
+    **NIH K99/R00** application *AI-Enabled Multimodal Spatial Biomarker Discovery for Precision Immunotherapy*
+    received an impact score of 18.
+- date: 2026-10
   text: Invited to serve as an Area Chair for [*ICML 2027*](https://icml.cc/).
 - date: 2026-08
   highlight: true
